@@ -1,0 +1,1745 @@
+[08:07:44.489628 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[08:07:44.520469 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[08:07:44.524401 - 09.07.19] [ERROR] File not found: /style.css
+[08:07:44.524398 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[08:07:44.526650 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[08:07:44.526736 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[08:07:44.633983 - 09.07.19] [ERROR] File not found: /favicon.ico
+[08:07:15.873445 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[08:07:15.895409 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[08:07:15.897791 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[08:07:15.897952 - 09.07.19] [ERROR] File not found: /style.css
+[08:07:15.899484 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[08:07:15.899673 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[08:07:16.013466 - 09.07.19] [ERROR] File not found: /favicon.ico
+[08:07:35.057188 - 09.07.19] [INFO] Listening... (MAX_EXEC_TIME=50000000)
+[08:07:41.673728 - 09.07.19] [INFO] [MQTT] dev/test: lololo
+[08:07:41.692651 - 09.07.19] [INFO] [MQTT] dev/test: lololo
+[09:07:25.729783 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:25.753282 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:25.759618 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:25.760294 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:25.760774 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:25.761571 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:25.881994 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:29.033912 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:29.058582 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:29.059283 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:29.059357 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:29.059701 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:29.059698 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:29.174789 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:51.505463 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:51.525498 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:51.527927 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:51.528421 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:51.528632 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:51.528693 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:51.655797 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:47.831454 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:47.853369 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:47.858209 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:47.858445 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:47.861246 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:47.862092 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:47.980042 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:08.549199 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:08.575322 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:08.576034 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:08.577593 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:08.577585 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:08.578357 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:08.690994 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:40.470353 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:40.494936 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:40.494895 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:40.497389 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:40.497942 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:40.498983 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:40.625463 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:56.466425 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:24.754599 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:35.369418 - 09.07.19] [DEBUG] Test:
+[09:07:35.369583 - 09.07.19] [DEBUG] []
+[09:07:35.500732 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:14.659384 - 09.07.19] [DEBUG] /assets
+[09:07:14.659655 - 09.07.19] [DEBUG] []
+[09:07:14.802971 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:42.932064 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:42.957006 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:42.963287 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:42.963310 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:42.963689 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:42.963829 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:43.080193 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:39.007250 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:39.030758 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:39.031059 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:39.031061 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:39.033684 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:39.033814 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:39.151059 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:54.215520 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:54.237682 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:54.238318 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:54.240248 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:54.240248 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:54.245041 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:54.363744 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:39.202316 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:39.221468 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:39.224993 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:39.226078 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:39.226942 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:39.229126 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:39.342067 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:45.774291 - 09.07.19] [INFO] [MQTT] dev/test: gehts immernoch?
+[09:07:45.774697 - 09.07.19] [INFO] [MQTT] dev/test: gehts immernoch?
+[09:07:51.220620 - 09.07.19] [INFO] [MQTT] dev/test: ja ok
+[09:07:51.220849 - 09.07.19] [INFO] [MQTT] dev/test: ja ok
+[09:07:59.292279 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:59.313138 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:59.322012 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:59.322380 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:59.322460 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:59.322494 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:59.431442 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:30.590814 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:30.613621 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:30.614325 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:30.616466 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:30.616662 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:30.616894 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:30.735683 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:52.093566 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[09:07:52.115473 - 09.07.19] [ERROR] File not found: /bootstrap/css/bootstrap.css
+[09:07:52.118556 - 09.07.19] [ERROR] File not found: /style.css
+[09:07:52.120864 - 09.07.19] [ERROR] File not found: /assets/js/popper.js
+[09:07:52.120881 - 09.07.19] [ERROR] File not found: /bootstrap/js/bootstrap.min.js
+[09:07:52.122105 - 09.07.19] [ERROR] File not found: /assets/js/jquery.min.js
+[09:07:52.239050 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:59.284086 - 09.07.19] [DEBUG] /assets
+[09:07:59.284366 - 09.07.19] [DEBUG] []
+[09:07:59.422130 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:36.598876 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:08.135949 - 09.07.19] [DEBUG] /assets
+[09:07:08.136152 - 09.07.19] [DEBUG] []
+[09:07:08.270483 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:33.121705 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:30.069104 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:20.102103 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:39.382814 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:23.121542 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:40.788742 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:53.789978 - 09.07.19] [INFO] [MQTT] dev/test: gehts?
+[09:07:53.790308 - 09.07.19] [INFO] [MQTT] dev/test: gehts?
+[09:07:29.560463 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:36.236521 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:53.519139 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:47.589186 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:13.749255 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:19.957678 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:29.922672 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:55.732554 - 09.07.19] [WARN] Method not allowed: /assets
+[09:07:55.866779 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:48.993473 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:28.861019 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:54.974352 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:06.797997 - 09.07.19] [DEBUG] /assets
+[09:07:06.798178 - 09.07.19] [DEBUG] []
+[09:07:06.924402 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:24.007845 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:15.039179 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssets[]
+[09:07:15.188295 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:51.209296 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssets
+[09:07:51.346571 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:09.343962 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:23.363539 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:47.077468 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:04.407013 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:00.343522 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:01.333032 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:33.753147 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:44.232673 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:56.697277 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:06.803377 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:26.584531 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:31.449565 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:36.393867 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:58.892665 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:48.573338 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:38.691607 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:39.860485 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:43.681951 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:11.839205 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:56.744779 - 09.07.19] [ERROR] File not found: /assets
+[09:07:56.886064 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:04.480996 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:07.142607 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:13.232661 - 09.07.19] [ERROR] File not found: /assets/afwf/gff
+[09:07:13.375788 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:16.362235 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:40.755032 - 09.07.19] [ERROR] File not found: /assets/afwf
+[09:07:40.909416 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:45.282764 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:21.478614 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:28.848108 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:45.559758 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:12.208943 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:13.199754 - 09.07.19] [ERROR] File not found: /favicon.ico
+[09:07:24.740644 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssets
+[09:07:24.865329 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:47.865663 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssets
+[10:07:47.999854 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:52.384152 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssets
+[10:07:52.522555 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:24.391014 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssets imkg xx.lng
+[10:07:24.528358 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:15.047990 - 09.07.19] [INFO] [MQTT] dev/test: M�PM�P
+[10:07:15.048240 - 09.07.19] [INFO] [MQTT] dev/test: M�PM�P
+[10:07:16.701770 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:30.182766 - 09.07.19] [INFO] [MQTT] dev/test: Es geht noch?
+[10:07:30.183096 - 09.07.19] [INFO] [MQTT] dev/test: Es geht noch?
+[10:07:45.174857 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssetsD:\Wamp\www\app\Config/../../public/imkg/xx.lng
+[10:07:45.305767 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:19.333570 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssetsD:\Wamp\www\app\Config/../../public/imkg/xx.lng
+[10:07:19.470950 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:43.696310 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssetsD:\Wamp\www\app\Config/../../public/assets/imkg/xx.lng
+[10:07:43.830364 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:28.666826 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssetsD:\Wamp\www\app\Config/../../public/assets/imkg/xx.lng
+[10:07:28.804838 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:28.817260 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssetsD:\Wamp\www\app\Config/../../public/assets/imkg/xx.lng
+[10:07:28.947725 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:40.264917 - 09.07.19] [WARN] File doesn't exist: /public/assets/imkg/xx.lng
+[10:07:40.265067 - 09.07.19] [DEBUG] App\Controllers\AssetsController::loadAssetsD:\Wamp\www\app\Config/../../public/assets/imkg/xx.lng
+[10:07:40.398623 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:59.189286 - 09.07.19] [WARN] File doesn't exist: /public/assets/imkg/xx.lng
+[10:07:59.324921 - 09.07.19] [WARN] File doesn't exist: /public/assets/imkg/xx.lng
+[10:07:59.470361 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:19.373041 - 09.07.19] [WARN] File not found: /public/assets/imkg/xx.lng
+[10:07:19.511496 - 09.07.19] [ERROR] File not found: /favicon.ico
+[10:07:09.332263 - 09.07.19] [WARN] File not found: /public/assets/imkg/xx.lng
+[10:07:09.475402 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:23.087679 - 09.07.19] [WARN] File not found: /public/assets/imkg/xx.lng
+[10:07:23.215902 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:48.614161 - 09.07.19] [WARN] File not found: /assets/imkg/xx.lng
+[10:07:48.752962 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:11.021209 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:52.355892 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:59.636803 - 09.07.19] [WARN] File not found: /assets/css/bootstrap.cssd
+[10:07:59.777005 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:02.448827 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:00.517989 - 09.07.19] [INFO] -> D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:00.708148 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:06.117683 - 09.07.19] [INFO] -> D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:06.287140 - 09.07.19] [INFO] -> D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:06.489262 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:08.372162 - 09.07.19] [WARN] File not found: /assets/css/bootstrap.cssd
+[10:07:08.500861 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:13.728274 - 09.07.19] [INFO] -> D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:13.923412 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:43.179392 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:43.378661 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:56.038068 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:56.063850 - 09.07.19] [WARN] File not found: /bootstrap/css/bootstrap.css
+[10:07:56.071813 - 09.07.19] [WARN] File not found: /style.css
+[10:07:56.072016 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:56.072418 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:56.072772 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:56.189787 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:36.142410 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:36.164353 - 09.07.19] [WARN] File not found: /bootstrap/css/bootstrap.css
+[10:07:36.165565 - 09.07.19] [WARN] File not found: /style.css
+[10:07:36.170638 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:36.170924 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:36.171897 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:36.287951 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:48.657688 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:48.690137 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:48.690137 - 09.07.19] [WARN] File not found: /style.css
+[10:07:48.690250 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:48.691183 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:48.692846 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:48.845620 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:54.042091 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:54.064801 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:54.065177 - 09.07.19] [WARN] File not found: /style.css
+[10:07:54.065264 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:54.070169 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:54.072852 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:54.167915 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:58.290618 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:58.311856 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:58.313888 - 09.07.19] [WARN] File not found: /style.css
+[10:07:58.313966 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:58.314147 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:58.314300 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:58.422533 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:19.648815 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:19.670084 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:19.671608 - 09.07.19] [WARN] File not found: /style.css
+[10:07:19.672168 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:19.673107 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:19.679382 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:19.781750 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:35.371303 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:35.397394 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:35.397454 - 09.07.19] [WARN] File not found: /style.css
+[10:07:35.400121 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:35.400537 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:35.401740 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:35.510603 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:06.553508 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:06.580781 - 09.07.19] [WARN] File not found: /style.css
+[10:07:06.584421 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:06.692120 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:09.367463 - 09.07.19] [WARN] File not found: /style.css
+[10:07:14.959921 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:14.985029 - 09.07.19] [WARN] File not found: /style.css
+[10:07:14.986068 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:15.116028 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:06.242969 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:06.266554 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:06.270281 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:06.270728 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:06.273338 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:06.276763 - 09.07.19] [WARN] File not found: /style.css
+[10:07:06.410931 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:17.922138 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:17.955612 - 09.07.19] [WARN] File not found: /style.css
+[10:07:17.956878 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:17.957426 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:17.957477 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:17.959029 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:18.099804 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:18.959930 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:18.983171 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:18.984225 - 09.07.19] [WARN] File not found: /style.css
+[10:07:18.984494 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:18.984934 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:18.985050 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:19.131239 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:19.131558 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:19.154775 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:19.155087 - 09.07.19] [WARN] File not found: /style.css
+[10:07:19.155651 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:19.155704 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:19.156351 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:19.298840 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:19.327453 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:19.327494 - 09.07.19] [WARN] File not found: /style.css
+[10:07:19.327516 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:19.327667 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:19.327685 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:19.431481 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:19.467436 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:19.467503 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:19.467681 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:19.467838 - 09.07.19] [WARN] File not found: /style.css
+[10:07:19.467825 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:19.579526 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:19.605824 - 09.07.19] [WARN] File not found: /style.css
+[10:07:19.606144 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:19.607463 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:19.607553 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:19.607602 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:19.745478 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:28.088535 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:32.307610 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:32.537734 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:35.901278 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:35.928684 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:35.928817 - 09.07.19] [WARN] File not found: /style.css
+[10:07:35.931725 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:35.931799 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:35.932123 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:36.072352 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:48.503468 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:48.529785 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:48.533661 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:48.533628 - 09.07.19] [WARN] File not found: /style.css
+[10:07:48.536081 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:48.538162 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:48.665155 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:48.988301 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:49.012939 - 09.07.19] [WARN] File not found: /style.css
+[10:07:49.013032 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:49.013030 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:49.013803 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:49.014633 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:49.135747 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:49.173581 - 09.07.19] [WARN] File not found: /style.css
+[10:07:49.173871 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:49.174840 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:49.174923 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:49.174941 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:49.280000 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:49.304873 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:49.304932 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:49.304918 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:49.304871 - 09.07.19] [WARN] File not found: /style.css
+[10:07:49.305633 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:49.437798 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:19.004258 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:19.030230 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:19.034976 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:19.034975 - 09.07.19] [WARN] File not found: /style.css
+[10:07:19.036343 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:19.036373 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:19.173514 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:26.560025 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:26.591577 - 09.07.19] [WARN] File not found: /style.css
+[10:07:26.591631 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:26.592220 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:26.592601 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:26.593705 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:26.738736 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:32.611703 - 09.07.19] [WARN] File not found: /assets
+[10:07:32.748566 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:35.601135 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:35.624541 - 09.07.19] [WARN] File not found: /style.css
+[10:07:35.624607 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:35.627537 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:35.627601 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:35.627741 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:35.761204 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:44.992035 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:45.013139 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:45.014795 - 09.07.19] [WARN] File not found: /style.css
+[10:07:45.014954 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:45.015376 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:45.015408 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:45.152884 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:21.382995 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:21.404856 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:21.407196 - 09.07.19] [WARN] File not found: /style.css
+[10:07:21.407521 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:21.407681 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:21.412295 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:21.551930 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:29.588666 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:29.614638 - 09.07.19] [WARN] File not found: /style.css
+[10:07:29.618132 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:29.642154 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:29.642422 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:29.702350 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:29.757905 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:54.831216 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:54.855423 - 09.07.19] [WARN] File not found: /style.css
+[10:07:54.857065 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:54.983545 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:55.486684 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:55.512059 - 09.07.19] [WARN] File not found: /style.css
+[10:07:55.512146 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:55.634362 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:55.647070 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:55.676356 - 09.07.19] [WARN] File not found: /style.css
+[10:07:55.676514 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:55.787184 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:58.239211 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:58.262646 - 09.07.19] [WARN] File not found: /style.css
+[10:07:58.265536 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:58.265536 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:58.265602 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:58.276139 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:58.391805 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:39.436407 - 09.07.19] [INFO] Listening... (MAX_EXEC_TIME=50000000)
+[10:07:36.497210 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:36.522164 - 09.07.19] [WARN] File not found: /style.css
+[10:07:36.524045 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:36.525969 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:36.530223 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:36.535354 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:36.664772 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:37.040801 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:37.066420 - 09.07.19] [WARN] File not found: /style.css
+[10:07:37.066579 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:37.066729 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:37.066817 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:37.077285 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:37.194124 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:37.214486 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:37.215200 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:37.215275 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:37.215315 - 09.07.19] [WARN] File not found: /style.css
+[10:07:37.227907 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:37.330058 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:37.363986 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:37.364090 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:37.364090 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:37.364180 - 09.07.19] [WARN] File not found: /style.css
+[10:07:37.377382 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:37.508393 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:24.569855 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:24.594629 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:24.594575 - 09.07.19] [WARN] File not found: /style.css
+[10:07:24.606006 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:24.606074 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:24.611476 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:24.743954 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:25.315299 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:25.340538 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:25.340560 - 09.07.19] [WARN] File not found: /style.css
+[10:07:25.340526 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:25.340708 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:25.352787 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:25.474192 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:25.486805 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:25.507535 - 09.07.19] [WARN] File not found: /style.css
+[10:07:25.508189 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:25.509311 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:25.510132 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:25.521747 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:25.617975 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:25.642758 - 09.07.19] [WARN] File not found: /style.css
+[10:07:25.643717 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:25.643788 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:25.648102 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:25.656451 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:25.731582 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:25.764229 - 09.07.19] [WARN] File not found: /style.css
+[10:07:25.764203 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:25.764946 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:25.765175 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:25.780831 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:25.898535 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:40.057660 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:40.082412 - 09.07.19] [WARN] File not found: /style.css
+[10:07:40.082510 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:40.082690 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:40.082929 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:40.095537 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:40.213984 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:43.025431 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:43.052550 - 09.07.19] [WARN] File not found: /style.css
+[10:07:43.054500 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:43.054870 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:43.054866 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:43.063601 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:43.199723 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:27.308216 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:27.335077 - 09.07.19] [WARN] File not found: /style.css
+[10:07:27.338500 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:27.342920 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:27.343307 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:27.462841 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:36.332221 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:36.362641 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:36.362598 - 09.07.19] [WARN] File not found: /style.css
+[10:07:36.363654 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:36.364655 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:36.485573 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:37.036399 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:37.060344 - 09.07.19] [WARN] File not found: /style.css
+[10:07:37.061391 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:37.061507 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:37.061752 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:37.181884 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:20.476748 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:20.500198 - 09.07.19] [WARN] File not found: /style.css
+[10:07:20.500300 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:20.504685 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:20.505004 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:20.633577 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:38.083866 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:38.109666 - 09.07.19] [WARN] File not found: /style.css
+[10:07:38.110208 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:38.110179 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:38.110298 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:38.128711 - 09.07.19] [DEBUG] text/plain
+[10:07:38.129083 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:38.251282 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:02.507089 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:02.533844 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:02.537132 - 09.07.19] [WARN] File not found: /style.css
+[10:07:02.538725 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:02.539480 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:02.540227 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:02.548994 - 09.07.19] [DEBUG] text/plain
+[10:07:02.549407 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:02.685775 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:06.684181 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:06.708546 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:06.713287 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:06.713619 - 09.07.19] [WARN] File not found: /style.css
+[10:07:06.713999 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:06.714053 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:06.725580 - 09.07.19] [DEBUG] text/plain
+[10:07:06.725983 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:06.851848 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:38.668589 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:38.695750 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:38.695833 - 09.07.19] [WARN] File not found: /style.css
+[10:07:38.696068 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:38.697347 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:38.697899 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:38.835552 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:32.835695 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:32.869990 - 09.07.19] [WARN] File not found: /style.css
+[10:07:32.870229 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:32.870237 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:32.873232 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:32.873271 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:32.992370 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:45.825834 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:45.849438 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:45.849921 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:45.850238 - 09.07.19] [WARN] File not found: /style.css
+[10:07:45.850275 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:45.853497 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:45.853433 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:45.996928 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:30.351247 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:30.372474 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:30.372860 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:30.377302 - 09.07.19] [WARN] File not found: /style.css
+[10:07:30.378008 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:30.380401 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:30.380400 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:30.523905 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:34.732596 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:34.755904 - 09.07.19] [WARN] File not found: /style.css
+[10:07:34.756017 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:34.756012 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:34.756190 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:34.756331 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:34.756594 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:34.885718 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:00.425890 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:00.449916 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:00.450374 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:00.451424 - 09.07.19] [WARN] File not found: /style.css
+[10:07:00.451500 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:00.451498 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:00.453081 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:00.608367 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:56.285001 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:56.311559 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:56.311995 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:56.312153 - 09.07.19] [WARN] File not found: /style.css
+[10:07:56.313542 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:56.313969 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:56.313997 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:56.453705 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:10.947429 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:10.975498 - 09.07.19] [WARN] File not found: /style.css
+[10:07:10.976792 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:10.976886 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:10.977735 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:10.990694 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:10.991028 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:11.115072 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:25.494912 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:00.548896 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:00.577989 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:00.578094 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:00.578226 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:00.578248 - 09.07.19] [WARN] File not found: /style.css
+[10:07:00.589346 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[10:07:00.589785 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[10:07:00.723400 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:10.597726 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:10.634217 - 09.07.19] [WARN] File not found: /style.css
+[10:07:10.634705 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:10.635054 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:10.635177 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:10.792521 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:44.812414 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:44.843879 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:44.843982 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:44.846817 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:44.987640 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:42.126071 - 09.07.19] [INFO] ---> /
+[10:07:42.126306 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:42.151007 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:42.151350 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:42.155305 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:42.155305 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:42.155617 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:42.155717 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:42.302870 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:42.303162 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:22.633408 - 09.07.19] [INFO] ---> /
+[10:07:22.633639 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:22.657822 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:22.658128 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:22.659085 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:22.659089 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:22.659455 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:22.659553 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:22.795624 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:22.795823 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:26.623149 - 09.07.19] [INFO] ---> /
+[10:07:26.623342 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:26.650334 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:26.650743 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:26.651998 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:26.651997 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:26.652390 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:26.652413 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:26.803400 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:26.803664 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:27.345028 - 09.07.19] [INFO] ---> /
+[10:07:27.345227 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:27.370290 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:27.370240 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:27.370324 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:27.370616 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:27.370628 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:27.370717 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:27.509645 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:27.509830 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:27.946936 - 09.07.19] [INFO] ---> /
+[10:07:27.947104 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:27.972966 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:27.972974 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:27.973016 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:27.973282 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:27.973390 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:27.973459 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:28.103571 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:28.103746 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:28.489583 - 09.07.19] [INFO] ---> /
+[10:07:28.489748 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:28.513311 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:28.513577 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:28.513742 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:28.514004 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:28.513999 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:28.514272 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:28.806881 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:28.807077 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:28.961251 - 09.07.19] [INFO] ---> /
+[10:07:28.961435 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:28.986279 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:28.986359 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:28.986602 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:28.986609 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:28.986918 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:28.987203 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:29.124010 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:29.124221 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:29.614764 - 09.07.19] [INFO] ---> /
+[10:07:29.614950 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:29.641220 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:29.641542 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:29.641836 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:29.641959 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:29.642021 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:29.642183 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:29.834484 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:29.834660 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:30.226082 - 09.07.19] [INFO] ---> /
+[10:07:30.226268 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:30.252035 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:30.252010 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:30.252230 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:30.252294 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:30.252334 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:30.252494 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:30.385964 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:30.386220 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:30.929825 - 09.07.19] [INFO] ---> /
+[10:07:30.929998 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:30.954812 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:30.954816 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:30.954908 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:30.955071 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:30.955125 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:30.955132 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:31.088082 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:31.088272 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:31.553406 - 09.07.19] [INFO] ---> /
+[10:07:31.553579 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:31.578361 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:31.578596 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:31.578679 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:31.578944 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:31.579230 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:31.579532 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:31.792598 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:31.792813 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:32.266209 - 09.07.19] [INFO] ---> /
+[10:07:32.266381 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:32.290061 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:32.290149 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:32.290288 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:32.290364 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:32.290451 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:32.290539 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:32.420576 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:32.420823 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:32.927642 - 09.07.19] [INFO] ---> /
+[10:07:32.927826 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:32.952245 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:32.952499 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:32.952661 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:32.952874 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:32.953233 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:32.953456 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:33.083994 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:33.084267 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:33.539098 - 09.07.19] [INFO] ---> /
+[10:07:33.539285 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:33.565103 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:33.565166 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:33.565371 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:33.565406 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:33.566007 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:33.566236 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:33.831140 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:33.831397 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:34.233203 - 09.07.19] [INFO] ---> /
+[10:07:34.233364 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:34.269214 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:34.269428 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:34.269583 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:34.269660 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:34.269723 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:34.269896 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:34.392738 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:34.392923 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:34.867121 - 09.07.19] [INFO] ---> /
+[10:07:34.867284 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:34.892650 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:34.892634 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:34.893005 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:34.893120 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:34.893475 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:34.893745 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:35.025590 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:35.025800 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:39.884941 - 09.07.19] [INFO] ---> /
+[10:07:39.885168 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:39.910746 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:39.910757 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:39.911049 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:39.911146 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:39.911179 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:39.911471 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:40.052167 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:40.052390 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:40.475830 - 09.07.19] [INFO] ---> /
+[10:07:40.476028 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:40.501199 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:40.501200 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:40.501577 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:40.501620 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:40.501989 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:40.502258 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:40.771940 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:40.772162 - 09.07.19] [WARN] File not found: /favicon.ico
+[10:07:41.218667 - 09.07.19] [INFO] ---> /
+[10:07:41.218844 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[10:07:41.245704 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[10:07:41.245962 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[10:07:41.245993 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[10:07:41.245989 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[10:07:41.246350 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[10:07:41.246379 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[10:07:41.378771 - 09.07.19] [INFO] ---> /favicon.ico
+[10:07:41.379079 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:27.196161 - 09.07.19] [INFO] ---> /
+[11:07:27.196397 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:27.221531 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:27.221891 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:27.227506 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:27.227760 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:27.227830 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:27.228059 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:27.378427 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:27.378739 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:35.615364 - 09.07.19] [INFO] ---> /
+[11:07:35.615555 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:35.756261 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:35.756622 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:35.095197 - 09.07.19] [INFO] ---> /
+[11:07:35.095392 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:35.263779 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:35.264073 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:03.581107 - 09.07.19] [INFO] ---> /
+[11:07:03.581312 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:03.726521 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:03.726783 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:20.445543 - 09.07.19] [INFO] ---> /
+[11:07:20.445748 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:20.484396 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:20.484772 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:20.485697 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:20.485858 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:20.486016 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:20.486200 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:21.255675 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:21.255897 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:58.053212 - 09.07.19] [INFO] ---> /
+[11:07:58.053424 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:58.078144 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:58.078497 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:58.078967 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:58.079302 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:58.079484 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:58.079739 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:58.393627 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:58.393886 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:59.932525 - 09.07.19] [INFO] ---> /
+[11:07:59.932708 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:59.959825 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:59.959859 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:59.959914 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:59.960264 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:59.960347 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:59.960266 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:00.164130 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:00.164357 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:01.986958 - 09.07.19] [INFO] ---> /
+[11:07:01.987182 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:02.018463 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:02.018539 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:02.018569 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:02.018777 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:02.018819 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:02.018825 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:02.220651 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:02.220985 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:37.543943 - 09.07.19] [INFO] ---> /
+[11:07:37.544171 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:37.580638 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:37.580923 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:37.581823 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:37.581978 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:37.582182 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:37.582245 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:38.161724 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:38.161958 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:59.511463 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:59.511771 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:43.689330 - 09.07.19] [INFO] ---> /
+[11:07:43.689546 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:43.721229 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:43.721465 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:44.316598 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:44.316940 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:04.770254 - 09.07.19] [INFO] ---> /
+[11:07:04.770577 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:04.796788 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:04.797062 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:04.798005 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:04.798346 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:04.798597 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:04.798935 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:05.631334 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:05.631531 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:43.992221 - 09.07.19] [INFO] ---> /
+[11:07:43.992474 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:44.024431 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:44.024682 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:44.027083 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:44.027443 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:44.027981 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:44.028335 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:44.345669 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:44.345921 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:46.584695 - 09.07.19] [INFO] ---> /
+[11:07:46.584893 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:46.609486 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:46.609475 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:46.609749 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:46.609797 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:46.612433 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:46.612776 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:46.836758 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:46.836973 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:37.273797 - 09.07.19] [INFO] ---> /?
+[11:07:37.274006 - 09.07.19] [WARN] File not found: /?
+[11:07:37.419782 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:37.419995 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:39.843373 - 09.07.19] [INFO] ---> /
+[11:07:39.843561 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:39.876857 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:39.877621 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:39.878468 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:39.878572 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:39.878729 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:39.878766 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:40.313943 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:40.314201 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:41.912340 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:41.912525 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:43.158978 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:43.159188 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:43.996462 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:43.996680 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:48.516292 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:48.516570 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:04.398849 - 09.07.19] [INFO] ---> /
+[11:07:04.399127 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:04.439191 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:04.439588 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:04.439538 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:04.439925 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:04.440439 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:04.440766 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:05.449653 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:05.449844 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:39.339851 - 09.07.19] [INFO] ---> /
+[11:07:39.340068 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:39.366861 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:39.367162 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:39.367255 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:39.367468 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:39.367472 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:39.367736 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:39.572928 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:39.573139 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:49.308919 - 09.07.19] [INFO] ---> /
+[11:07:49.309134 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:49.351411 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:49.351411 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:49.351769 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:49.351788 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:49.354519 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:49.354919 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:49.610705 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:49.611039 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:36.175803 - 09.07.19] [INFO] ---> /
+[11:07:36.175990 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:36.212287 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:36.212678 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:36.214575 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:36.214692 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:36.214964 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:36.215024 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:36.627987 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:36.628264 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:31.904883 - 09.07.19] [INFO] ---> /
+[11:07:31.905095 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:31.937796 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:31.938121 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:31.938233 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:31.938562 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:31.941158 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:31.941622 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:32.141965 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:32.142247 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:45.881942 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:45.882263 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:49.060447 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:49.060651 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:58.783428 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:58.783662 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:11.179136 - 09.07.19] [INFO] ---> /listener
+[11:07:13.608180 - 09.07.19] [INFO] ---> /
+[11:07:13.608447 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:13.632855 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:13.633093 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/js/jquery.min.js
+[11:07:13.633275 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:13.636156 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:13.636459 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/js/popper.js
+[11:07:13.636663 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:13.637149 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:13.637456 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:14.204564 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:14.204783 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:09.435855 - 09.07.19] [INFO] ---> /
+[11:07:09.436032 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:09.473865 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:09.474177 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/js/jquery.min.js
+[11:07:09.474374 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:09.478558 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:09.478709 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:09.478741 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/js/popper.js
+[11:07:09.478913 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:09.479024 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:11.353997 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:11.354187 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:17.782752 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:17.782974 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:31.453708 - 09.07.19] [INFO] ---> /
+[11:07:31.453986 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:31.478720 - 09.07.19] [INFO] ---> /assets/js/jquery.min.js
+[11:07:31.479026 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/js/jquery.min.js
+[11:07:31.479252 - 09.07.19] [WARN] File not found: /assets/js/jquery.min.js
+[11:07:31.481768 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:31.482010 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:31.482116 - 09.07.19] [INFO] ---> /assets/js/popper.js
+[11:07:31.482364 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/js/popper.js
+[11:07:31.482529 - 09.07.19] [WARN] File not found: /assets/js/popper.js
+[11:07:34.257360 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:34.257592 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:38.620345 - 09.07.19] [INFO] ---> /assets
+[11:07:38.620557 - 09.07.19] [WARN] File not found: /assets
+[11:07:38.769841 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:38.770106 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:49.489306 - 09.07.19] [INFO] ---> /assets/css/bootstrap.css
+[11:07:49.489622 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[11:07:49.489953 - 09.07.19] [DEBUG] D:\Wamp\www\app\Config/../../public/assets/css/bootstrap.css
+[11:07:49.490312 - 09.07.19] [INFO] -> /assets/css/bootstrap.css
+[11:07:49.706644 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:49.706954 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:37.274261 - 09.07.19] [INFO] ---> /assets/css/bootstrap.css
+[11:07:37.274516 - 09.07.19] [WARN] File not found: /assets/css/bootstrap.css
+[11:07:37.413031 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:37.413304 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:38.036411 - 09.07.19] [INFO] ---> /assets/css/bootstrap.css
+[11:07:38.036573 - 09.07.19] [WARN] File not found: /assets/css/bootstrap.css
+[11:07:38.172015 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:38.172191 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:38.194015 - 09.07.19] [INFO] ---> /assets/css/bootstrap.css
+[11:07:38.194385 - 09.07.19] [WARN] File not found: /assets/css/bootstrap.css
+[11:07:38.334812 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:38.335015 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:38.349216 - 09.07.19] [INFO] ---> /assets/css/bootstrap.css
+[11:07:38.349480 - 09.07.19] [WARN] File not found: /assets/css/bootstrap.css
+[11:07:38.476511 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:38.476765 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:01.177776 - 09.07.19] [INFO] ---> /assets/css/bootstrap.css
+[11:07:01.177941 - 09.07.19] [WARN] File not found: /assets/css/bootstrap.css
+[11:07:01.324494 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:01.324676 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:35.833245 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:35.833562 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:01.365213 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:01.365425 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:08.582549 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:08.582768 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:33.459862 - 09.07.19] [INFO] ---> /assets/css/bootstrap.css
+[11:07:33.460054 - 09.07.19] [WARN] File not found: /assets/css/bootstrap.css
+[11:07:33.604361 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:33.604612 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:46.255970 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:46.256195 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:55.962084 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:55.962461 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:19.803045 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:19.803330 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:29.220513 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:29.220737 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:31.167953 - 09.07.19] [INFO] ---> /assets
+[11:07:31.168206 - 09.07.19] [WARN] File not found: /assets
+[11:07:31.299550 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:31.299802 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:32.419274 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:32.419465 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:32.755565 - 09.07.19] [INFO] ---> /assets
+[11:07:32.755840 - 09.07.19] [WARN] File not found: /assets
+[11:07:32.886575 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:32.886834 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:33.326094 - 09.07.19] [INFO] ---> /
+[11:07:33.326287 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:33.355488 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:33.355760 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:33.660838 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:33.661047 - 09.07.19] [WARN] File not found: /favicon.ico
+[11:07:38.101340 - 09.07.19] [INFO] ---> /
+[11:07:38.101518 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[11:07:38.129225 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[11:07:38.129469 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[11:07:38.444857 - 09.07.19] [INFO] ---> /favicon.ico
+[11:07:38.445143 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:14.462724 - 09.07.19] [INFO] ---> /
+[14:07:14.479566 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:14.513265 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:14.513539 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:15.107674 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:15.107892 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:17.928054 - 09.07.19] [INFO] ---> /
+[14:07:17.928222 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:17.947823 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:17.948104 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:18.013487 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:18.013693 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:24.701712 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:24.701898 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:38.712304 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:38.712532 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:42.454831 - 09.07.19] [INFO] ---> /assets
+[14:07:42.455008 - 09.07.19] [WARN] File not found: /assets
+[14:07:42.565314 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:42.565553 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:45.386770 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:45.386942 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:08.441588 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:08.441946 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:11.669254 - 09.07.19] [INFO] ---> /listener
+[14:07:42.542494 - 09.07.19] [INFO] ---> /
+[14:07:42.542704 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:42.570387 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:42.570742 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:42.724807 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:42.725010 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:44.204912 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:44.205083 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:12.591001 - 09.07.19] [INFO] ---> /
+[14:07:12.591175 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:12.614692 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:12.614967 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:12.729770 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:12.729982 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:56.674288 - 09.07.19] [INFO] ---> /
+[14:07:56.674523 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:56.698358 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:56.698580 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:56.941428 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:56.941640 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:47.993538 - 09.07.19] [INFO] ---> /
+[14:07:47.993719 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:48.020229 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:48.020439 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:48.168391 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:48.168582 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:47.523744 - 09.07.19] [INFO] ---> /
+[14:07:47.523973 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:47.552266 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:47.552509 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:47.661816 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:47.662064 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:16.801058 - 09.07.19] [INFO] ---> /
+[14:07:16.801348 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:16.830292 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:16.830515 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:16.966472 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:16.966662 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:23.737170 - 09.07.19] [INFO] ---> /
+[14:07:23.737366 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:23.760653 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:23.761038 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:23.834221 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:23.834414 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:33.058025 - 09.07.19] [INFO] ---> /
+[14:07:33.058202 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:33.084221 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:33.084432 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:33.186256 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:33.186427 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:33.964620 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:33.964793 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:21.263868 - 09.07.19] [INFO] ---> /
+[14:07:21.264095 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:21.288886 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:21.289174 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:21.404900 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:21.405093 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:38.222144 - 09.07.19] [INFO] ---> /
+[14:07:38.222311 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:38.243965 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:38.244195 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:38.363930 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:38.364121 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:39.131610 - 09.07.19] [INFO] ---> /localhost/listener
+[14:07:39.131866 - 09.07.19] [WARN] File not found: /localhost/listener
+[14:07:39.200501 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:39.200751 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:45.906387 - 09.07.19] [INFO] ---> /
+[14:07:45.906550 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:45.930796 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:45.931076 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:46.006669 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:46.006850 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:46.059711 - 09.07.19] [INFO] ---> /
+[14:07:46.059882 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:46.081883 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:46.082066 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:46.152595 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:46.152767 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:46.997183 - 09.07.19] [INFO] ---> /listener
+[14:07:27.554128 - 09.07.19] [INFO] ---> /
+[14:07:27.554370 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:27.581322 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:27.581640 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:28.094277 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:28.094463 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:29.663389 - 09.07.19] [INFO] ---> /
+[14:07:29.663570 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[14:07:29.684053 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[14:07:29.684317 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[14:07:29.751101 - 09.07.19] [INFO] ---> /favicon.ico
+[14:07:29.751274 - 09.07.19] [WARN] File not found: /favicon.ico
+[14:07:18.479197 - 09.07.19] [INFO] ---> /listener
+[15:07:22.222349 - 09.07.19] [INFO] ---> /
+[15:07:22.222578 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:22.250296 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:22.250552 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:22.430742 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:22.430953 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:56.063415 - 09.07.19] [INFO] ---> /
+[15:07:56.063766 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:56.091685 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:56.091929 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:56.220415 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:56.220656 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:05.027796 - 09.07.19] [INFO] ---> /
+[15:07:05.027995 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:05.055028 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:05.055293 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:05.178461 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:05.178631 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:03.696507 - 09.07.19] [INFO] ---> /
+[15:07:03.696683 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:03.724294 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:03.724523 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:03.842952 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:03.843204 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:21.593939 - 09.07.19] [INFO] ---> /
+[15:07:21.594229 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:21.618059 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:21.618282 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:21.736524 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:21.736704 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:46.346070 - 09.07.19] [INFO] ---> /
+[15:07:46.346306 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:46.369584 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:46.369803 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:46.478868 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:46.479069 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:51.219390 - 09.07.19] [INFO] ---> /
+[15:07:51.219565 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:51.238448 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:51.238686 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:51.305281 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:51.305459 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:21.764756 - 09.07.19] [INFO] ---> /
+[15:07:21.765007 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:21.785740 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:21.785951 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:21.907255 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:21.907431 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:23.724511 - 09.07.19] [INFO] ---> /
+[15:07:23.724678 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:23.743923 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:23.744210 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:23.810468 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:23.810659 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:25.077548 - 09.07.19] [INFO] ---> /
+[15:07:25.077733 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:25.097602 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:25.097856 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:25.160161 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:25.160324 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:41.008880 - 09.07.19] [INFO] ---> /
+[15:07:41.009075 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:41.028206 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:41.028400 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:41.148609 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:41.148814 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:07.644796 - 09.07.19] [INFO] ---> /
+[15:07:07.645053 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:07.670646 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:07.670933 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:07.991119 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:07.991367 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:41.570402 - 09.07.19] [INFO] ---> /
+[15:07:41.570590 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:41.592918 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:41.593138 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:41.706226 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:41.706397 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:48.895169 - 09.07.19] [INFO] ---> /
+[15:07:48.895421 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:48.914602 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:48.914793 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:48.976868 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:48.977038 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:28.289494 - 09.07.19] [INFO] ---> /
+[15:07:28.289717 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:28.313059 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:28.313251 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:28.460063 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:28.460255 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:34.968531 - 09.07.19] [INFO] ---> /
+[15:07:34.968754 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:34.989985 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:34.990174 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:35.052110 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:35.052369 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:42.039350 - 09.07.19] [INFO] ---> /
+[15:07:42.039583 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:42.060391 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:42.060649 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:42.168336 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:42.168513 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:44.339033 - 09.07.19] [INFO] ---> /
+[15:07:44.339202 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:44.358041 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:44.358288 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:44.416962 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:44.417150 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:01.258764 - 09.07.19] [INFO] ---> /
+[15:07:01.258953 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:01.279466 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:01.279653 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:01.391645 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:01.391816 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:19.762790 - 09.07.19] [INFO] ---> /
+[15:07:19.762972 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:19.786532 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:19.786745 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:19.892016 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:19.892235 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:39.537301 - 09.07.19] [INFO] ---> /
+[15:07:39.537473 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:39.562459 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:39.562685 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:39.696788 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:39.696960 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:02.840231 - 09.07.19] [INFO] ---> /
+[15:07:02.840435 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:02.860070 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:02.860342 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:02.979588 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:02.979774 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:24.302045 - 09.07.19] [INFO] ---> /listener
+[15:07:52.606096 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:52.606284 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:53.898172 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:53.898341 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:05.747405 - 09.07.19] [INFO] ---> /
+[15:07:05.747636 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:05.778925 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:05.779140 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:05.910891 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:05.911077 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:17.215401 - 09.07.19] [INFO] ---> /
+[15:07:17.215590 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:17.237122 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:17.237349 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:17.348496 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:17.348668 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:23.389846 - 09.07.19] [INFO] ---> /
+[15:07:23.390053 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:23.411940 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:23.412254 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:23.478977 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:23.479146 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:35.896033 - 09.07.19] [INFO] ---> /
+[15:07:35.896262 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:35.924988 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:35.925233 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:36.195303 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:36.195560 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:40.097522 - 09.07.19] [INFO] ---> /
+[15:07:40.097699 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:40.118458 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:40.118653 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:40.221742 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:40.221906 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:25.738587 - 09.07.19] [INFO] ---> /
+[15:07:25.738782 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:25.758645 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:25.759039 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:25.869582 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:25.869746 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:28.664042 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:28.664315 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:22.919592 - 09.07.19] [INFO] ---> /
+[15:07:22.919812 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:22.944542 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:22.944811 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:23.091186 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:23.091460 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:36.314249 - 09.07.19] [INFO] ---> /
+[15:07:36.314445 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:36.335832 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:36.336108 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:36.447229 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:36.447418 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:41.476316 - 09.07.19] [INFO] ---> /listener
+[15:07:22.287292 - 09.07.19] [INFO] ---> /
+[15:07:22.287509 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:22.316532 - 09.07.19] [INFO] ---> /bootstrap/js/bootstrap.min.js
+[15:07:22.316845 - 09.07.19] [WARN] File not found: /bootstrap/js/bootstrap.min.js
+[15:07:22.493038 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:22.493304 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:23.550758 - 09.07.19] [INFO] ---> /listener
+[15:07:55.249975 - 09.07.19] [INFO] ---> /
+[15:07:55.250234 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:55.394448 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:55.394645 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:56.407046 - 09.07.19] [INFO] ---> /listener
+[15:07:12.564519 - 09.07.19] [INFO] ---> /
+[15:07:12.564749 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:12.701350 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:12.701554 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:24.327384 - 09.07.19] [INFO] ---> /
+[15:07:24.327567 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:24.453993 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:24.454182 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:27.607444 - 09.07.19] [INFO] ---> /listener
+[15:07:00.246376 - 09.07.19] [INFO] ---> /
+[15:07:00.246552 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:00.394968 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:00.395169 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:01.138346 - 09.07.19] [INFO] ---> /listener
+[15:07:18.439758 - 09.07.19] [INFO] ---> /
+[15:07:18.439969 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:18.632428 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:18.632734 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:19.617863 - 09.07.19] [INFO] ---> /
+[15:07:19.618030 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:19.801765 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:19.801959 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:32.426632 - 09.07.19] [INFO] ---> /
+[15:07:32.426891 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:32.613100 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:32.613358 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:15.219121 - 09.07.19] [INFO] ---> /
+[15:07:15.219363 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:15.438821 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:15.439050 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:19.402904 - 09.07.19] [INFO] ---> /listener
+[15:07:41.384693 - 09.07.19] [INFO] ---> /listener
+[15:07:50.025885 - 09.07.19] [INFO] ---> /listener
+[15:07:34.765465 - 09.07.19] [INFO] ---> /listener
+[15:07:36.991037 - 09.07.19] [INFO] ---> /
+[15:07:36.991237 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:37.194015 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:37.194246 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:02.960306 - 09.07.19] [INFO] ---> /
+[15:07:02.960481 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:03.924182 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:03.924453 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:50.444499 - 09.07.19] [INFO] ---> /
+[15:07:50.444718 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:50.710389 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:50.710631 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:51.383792 - 09.07.19] [INFO] ---> /listener
+[15:07:03.172768 - 09.07.19] [INFO] ---> /
+[15:07:03.172981 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:03.352309 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:03.352645 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:03.990847 - 09.07.19] [INFO] ---> /listener
+[15:07:00.763890 - 09.07.19] [INFO] ---> /
+[15:07:00.764108 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:00.939473 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:00.939735 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:01.950888 - 09.07.19] [INFO] ---> /listener
+[15:07:41.430311 - 09.07.19] [INFO] ---> /
+[15:07:41.430516 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:41.623001 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:41.623347 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:44.261355 - 09.07.19] [INFO] ---> /
+[15:07:44.261529 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:44.416467 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:44.416662 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:50.220501 - 09.07.19] [INFO] ---> /
+[15:07:50.220703 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:50.308842 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:50.309027 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:57.979537 - 09.07.19] [INFO] ---> /listener
+[15:07:05.628404 - 09.07.19] [INFO] ---> /
+[15:07:05.628669 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:05.750978 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:05.751190 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:07.214270 - 09.07.19] [INFO] ---> /listener
+[15:07:38.858965 - 09.07.19] [INFO] ---> /
+[15:07:38.859207 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:39.037206 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:39.037458 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:40.191992 - 09.07.19] [INFO] ---> /listener
+[15:07:14.992239 - 09.07.19] [INFO] ---> /
+[15:07:14.992508 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:15.148588 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:15.148781 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:15.809115 - 09.07.19] [INFO] ---> /listener
+[15:07:22.012552 - 09.07.19] [INFO] ---> /
+[15:07:22.012760 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:22.112984 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:22.113192 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:23.961224 - 09.07.19] [INFO] ---> /listener
+[15:07:28.768596 - 09.07.19] [INFO] ---> /
+[15:07:28.768803 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:28.921599 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:28.921858 - 09.07.19] [WARN] File not found: /favicon.ico
+[15:07:30.297306 - 09.07.19] [INFO] ---> /listener
+[15:07:53.512430 - 09.07.19] [INFO] ---> /
+[15:07:53.512648 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[15:07:53.661444 - 09.07.19] [INFO] ---> /favicon.ico
+[15:07:53.661640 - 09.07.19] [WARN] File not found: /favicon.ico
+[16:07:00.335880 - 09.07.19] [INFO] Request: --> /
+[16:07:00.336219 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[16:07:00.691205 - 09.07.19] [INFO] Request: --> /favicon.ico
+[16:07:00.691417 - 09.07.19] [WARN] File not found: /favicon.ico
+[16:07:52.752494 - 09.07.19] [INFO] Request: --> /
+[16:07:52.752773 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[16:07:52.944942 - 09.07.19] [INFO] Request: --> /favicon.ico
+[16:07:52.945158 - 09.07.19] [WARN] File not found: /favicon.ico
+[16:07:06.487997 - 09.07.19] [INFO] Request: --> /listener
+[16:07:20.540834 - 09.07.19] [INFO] Request: --> /
+[16:07:20.541051 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[16:07:20.700403 - 09.07.19] [INFO] Request: --> /favicon.ico
+[16:07:20.700603 - 09.07.19] [WARN] File not found: /favicon.ico
+[16:07:23.206781 - 09.07.19] [INFO] Request: --> /listener
+[18:07:46.258459 - 09.07.19] [INFO] Request: --> /favicon.ico
+[18:07:46.258459 - 09.07.19] [INFO] Request: --> /
+[18:07:46.286233 - 09.07.19] [WARN] File not found: /favicon.ico
+[18:07:46.286287 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[18:07:47.386688 - 09.07.19] [INFO] Request: --> /favicon.ico
+[18:07:47.386951 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:48.141702 - 09.07.19] [INFO] Request: --> /
+[19:07:48.141974 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[19:07:48.377097 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:48.377343 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:50.075857 - 09.07.19] [INFO] Request: --> /
+[19:07:50.076049 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[19:07:50.173993 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:50.174163 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:51.041658 - 09.07.19] [INFO] Request: --> /listener
+[19:07:55.979804 - 09.07.19] [INFO] Request: --> /
+[19:07:55.980029 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[19:07:56.077586 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:56.077823 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:32.340854 - 09.07.19] [INFO] Request: --> /
+[19:07:32.341089 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[19:07:32.514723 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:32.514910 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:48.520857 - 09.07.19] [INFO] Request: --> /
+[19:07:48.521068 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[19:07:48.662492 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:48.662697 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:24.288802 - 09.07.19] [INFO] Request: --> /
+[19:07:24.289018 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[19:07:24.507764 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:24.508021 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:28.285842 - 09.07.19] [INFO] Request: --> /test
+[19:07:28.391005 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:28.391213 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:04.400832 - 09.07.19] [INFO] Request: --> /test
+[19:07:04.651646 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:04.651860 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:20.234714 - 09.07.19] [INFO] Request: --> /test
+[19:07:20.348723 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:20.348894 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:33.302932 - 09.07.19] [INFO] Request: --> /test
+[19:07:33.418484 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:33.418722 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:38.833173 - 09.07.19] [INFO] Request: --> /test
+[19:07:38.944217 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:38.944381 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:08.135676 - 09.07.19] [INFO] Request: --> /test
+[19:07:08.250594 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:08.250768 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:20.964206 - 09.07.19] [INFO] Request: --> /test
+[19:07:21.090932 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:21.091174 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:21.449341 - 09.07.19] [INFO] Request: --> /test
+[19:07:21.522760 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:21.522956 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:21.588045 - 09.07.19] [INFO] Request: --> /test
+[19:07:21.663309 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:21.663518 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:39.583705 - 09.07.19] [INFO] Request: --> /test
+[19:07:39.704277 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:39.704444 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:40.073236 - 09.07.19] [INFO] Request: --> /test
+[19:07:40.149142 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:40.149407 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:40.216327 - 09.07.19] [INFO] Request: --> /test
+[19:07:40.291614 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:40.291898 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:55.998582 - 09.07.19] [INFO] Request: --> /test
+[19:07:56.110969 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:56.111166 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:57.875358 - 09.07.19] [INFO] Request: --> /test
+[19:07:57.986813 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:57.987008 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:47.848901 - 09.07.19] [INFO] Request: --> /test
+[19:07:47.975576 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:47.975810 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:51.593019 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:51.593201 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:47.421709 - 09.07.19] [INFO] Request: --> /test
+[19:07:47.507830 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:47.508127 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:24.684170 - 09.07.19] [INFO] Request: --> /test
+[19:07:24.810864 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:24.811029 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:25.088933 - 09.07.19] [INFO] Request: --> /test
+[19:07:25.225787 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:25.225962 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:25.259323 - 09.07.19] [INFO] Request: --> /test
+[19:07:25.329153 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:25.329329 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:25.396011 - 09.07.19] [INFO] Request: --> /test
+[19:07:25.472097 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:25.472289 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:25.553500 - 09.07.19] [INFO] Request: --> /test
+[19:07:25.626140 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:25.626331 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:25.707344 - 09.07.19] [INFO] Request: --> /test
+[19:07:25.782833 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:25.783026 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:29.488830 - 09.07.19] [INFO] Request: --> /
+[19:07:29.489014 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[19:07:29.704352 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:29.704598 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:31.408414 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:31.408612 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:32.968091 - 09.07.19] [INFO] Request: --> /test
+[19:07:33.038763 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:33.038960 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:19.491548 - 09.07.19] [INFO] Request: --> /test
+[19:07:19.620091 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:19.620277 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:20.005562 - 09.07.19] [INFO] Request: --> /test
+[19:07:20.091979 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:20.092188 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:20.148878 - 09.07.19] [INFO] Request: --> /test
+[19:07:20.222087 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:20.222276 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:34.693020 - 09.07.19] [INFO] Request: --> /test
+[19:07:34.811312 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:34.811514 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:59.704164 - 09.07.19] [INFO] Request: --> /test
+[19:07:59.831194 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:59.831362 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:21.765922 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:21.766185 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:34.208760 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:34.208950 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:05.020400 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:05.020595 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:52.031803 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:52.032026 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:41.891555 - 09.07.19] [INFO] Request: --> /test
+[19:07:42.017697 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:42.017877 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:54.662550 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:54.662737 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:58.345232 - 09.07.19] [INFO] Request: --> /test
+[19:07:58.458227 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:58.458398 - 09.07.19] [WARN] File not found: /favicon.ico
+[19:07:55.523680 - 09.07.19] [INFO] Request: --> /test
+[19:07:55.641015 - 09.07.19] [INFO] Request: --> /favicon.ico
+[19:07:55.641187 - 09.07.19] [WARN] File not found: /favicon.ico
+[20:07:21.293583 - 09.07.19] [INFO] Request: --> /test
+[20:07:21.407146 - 09.07.19] [INFO] Request: --> /favicon.ico
+[20:07:21.407317 - 09.07.19] [WARN] File not found: /favicon.ico
+[20:07:59.479359 - 09.07.19] [INFO] Request: --> /test
+[20:07:59.596005 - 09.07.19] [INFO] Request: --> /favicon.ico
+[20:07:59.596165 - 09.07.19] [WARN] File not found: /favicon.ico
+[20:07:30.494473 - 09.07.19] [INFO] Request: --> /test
+[20:07:30.612551 - 09.07.19] [INFO] Request: --> /favicon.ico
+[20:07:30.612805 - 09.07.19] [WARN] File not found: /favicon.ico
+[20:07:16.345734 - 09.07.19] [INFO] Request: --> /test
+[20:07:16.466903 - 09.07.19] [INFO] Request: --> /favicon.ico
+[20:07:16.467084 - 09.07.19] [WARN] File not found: /favicon.ico
+[20:07:00.422667 - 09.07.19] [INFO] Request: --> /test
+[20:07:01.186856 - 09.07.19] [INFO] Request: --> /favicon.ico
+[20:07:01.187024 - 09.07.19] [WARN] File not found: /favicon.ico
+[20:07:47.470334 - 09.07.19] [INFO] Request: --> /favicon.ico
+[20:07:47.470523 - 09.07.19] [WARN] File not found: /favicon.ico
+[20:07:37.709274 - 09.07.19] [INFO] Request: --> /test
+[20:07:37.823914 - 09.07.19] [INFO] Request: --> /favicon.ico
+[20:07:37.824119 - 09.07.19] [WARN] File not found: /favicon.ico
+[20:07:53.530876 - 09.07.19] [INFO] Request: --> /test
+[20:07:53.531135 - 09.07.19] [DEBUG] HALLO!!!!!
+[20:07:53.645106 - 09.07.19] [INFO] Request: --> /favicon.ico
+[20:07:53.645336 - 09.07.19] [WARN] File not found: /favicon.ico
+[20:07:02.784212 - 09.07.19] [INFO] Request: --> /test
+[20:07:02.784466 - 09.07.19] [DEBUG] HALLO!!!!!
+[20:07:02.851566 - 09.07.19] [INFO] Request: --> /favicon.ico
+[20:07:02.851732 - 09.07.19] [WARN] File not found: /favicon.ico
+[20:07:59.212331 - 09.07.19] [INFO] Request: --> /
+[20:07:59.212563 - 09.07.19] [DEBUG] -> Framework\Controller\Controller::render("home.html", [])
+[20:07:00.432372 - 09.07.19] [INFO] Request: --> /favicon.ico
+[20:07:00.432585 - 09.07.19] [WARN] File not found: /favicon.ico
+[20:07:17.869344 - 09.07.19] [INFO] Request: --> /listener

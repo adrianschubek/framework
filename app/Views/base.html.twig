@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Wetterstation</title>
+    <!-- Bootstrap core CSS -->
+    <meta http-equiv="refresh" content="3">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+          type="text/css">
+    <style>.grow {
+            transition: all .2s ease-in-out;
+        }
+
+        .grow:hover {
+            transform: scale(1.1);
+        }
+
+        .c1 {
+            -webkit-background-clip: text;
+            background-image: -webkit-linear-gradient(107deg, #9b0063, #ff4c1d);
+            color: #9b0063;
+            color: gradient-color-at(#9b0063, #ff4c1d);
+            font-weight: 800;
+            -webkit-text-fill-color: transparent;
+            font-size: 32px;
+            margin: 0 auto;
+        }
+
+        .c2 {
+            -webkit-background-clip: text;
+            background-image: -webkit-linear-gradient(107deg, #11cdef, #172b4d);
+            color: #172b4d;
+            color: gradient-color-at(#9b0063, #ff4c1d);
+            font-weight: 800;
+            -webkit-text-fill-color: transparent;
+            font-size: 32px;
+            margin: 0 auto;
+        }
+
+        .c3 {
+            -webkit-background-clip: text;
+            background-image: -webkit-linear-gradient(107deg, #c1bbcb, #000000);
+            color: #172b4d;
+            font-weight: 800;
+            -webkit-text-fill-color: transparent;
+            font-size: 32px;
+            margin: 0 auto;
+        }
+
+        .c4 {
+            -webkit-background-clip: text;
+            background-image: -webkit-linear-gradient(107deg, #11cdef, #172b4d);
+            color: #172b4d;
+            color: gradient-color-at(#9b0063, #ff4c1d);
+            font-weight: 800;
+            -webkit-text-fill-color: transparent;
+            font-size: 32px;
+            margin: 0 auto;
+        }
+
+        .c5 {
+            -webkit-background-clip: text;
+            background-image: -webkit-linear-gradient(107deg, #e0ef6c, #ef6c0d);
+            color: #172b4d;
+
+            /*color: gradient-color-at(#9b0063, #ff4c1d);*/
+            font-weight: 800;
+            -webkit-text-fill-color: transparent;
+            font-size: 32px;
+            margin: 0 auto;
+        }</style>
+</head>
+<body class="bg-light">
+<div class="container">
+</div>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<nav class="navbar navbar-expand-lg shadow-sm bg-white navbar-light">
+    <a class="navbar-brand" href="#">Wetterstation</a>
+    <span class="badge badge-primary badge-pill">v1.0</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler14"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler14">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Programmiert von <b>Adrian Schubek</b></a>
+            </li>
+        </ul>
+{#        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">#}
+        {#            <div class="btn-group" role="group" aria-label="First group">#}
+        {#                <button type="button" class="btn btn-outline-dark" disabled="disabled" id="status"><i#}
+        {#                            class="fas fa-exclamation-triangle"></i> Inaktiv#}
+        {#                </button>#}
+        {#                <a class="btn my-2 my-sm-0 btn-danger" target="_blank" href="/listener" id="btn1"><i#}
+        {#                            class="fas fa-rocket"></i> Listener#}
+        {#                    starten</a>#}
+        {#            </div>#}
+        {#        </div>#}
+    </div>
+</nav>
+<div class="container">
+    <div class="card-deck mt-5">
+        <div class="card grow shadow-sm">
+            <div class="card-body">
+                <h4 class="card-title c1"><i class="fas fa-thermometer-quarter c1"></i> Temperatur</h4>
+                <p class="card-text">
+                <h3>{% block temp %}{% endblock %}</h3></p>
+                <p class="card-text">
+                    <small class="text-muted">Zuletzt aktualisiert <b>{% block lastupdate %}{% endblock %}</b></small>
+                </p>
+            </div>
+        </div>
+        <div class="card grow shadow-sm">
+            <div class="card-body">
+                <h4 class="card-title c2"><i class="fas fa-tint c2"></i> Luftfeuchtigkeit</h4>
+                <p class="card-text">
+                <h3>{% block wet %}{% endblock %}</h3></p>
+                <p class="card-text">
+                    <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
+                </p>
+            </div>
+        </div>
+        <div class="card grow shadow-sm">
+            <div class="card-body">
+                <h4 class="card-title c3"><i class="fas fa-weight-hanging c3"></i> Luftdruck</h4>
+                <p class="card-text">
+                <h3>{% block pressure %}{% endblock %}</h3></p>
+                <p class="card-text">
+                    <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="card-deck mt-5">
+        <div class="card grow shadow-sm">
+            <div class="card-body">
+                <h4 class="card-title c4"><i class="fas fa-arrows-alt-v c4"></i> Höhe</h4>
+                <p class="card-text">
+                <h3>{% block height %}{% endblock %}</h3></p>
+                <p class="card-text">
+                    <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
+                </p>
+            </div>
+        </div>
+        <div class="card grow shadow-sm">
+            <div class="card-body">
+                <h4 class="card-title c5"><i class="fas fa-sun c5"></i> UV-Index</h4>
+                <p class="card-text">
+                <h3>{% block uv %}{% endblock %}</h3></p>
+                <p class="card-text">
+                    <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/79776262c5.js"></script>
+<script>
+    $(function () {
+        $("#btn1").click(function () {
+            $(this).addClass("disabled");
+            $(this).html('<i class="fas fa-rocket"></i> Listener gestartet');
+            $(this).removeClass("btn-danger");
+            $(this).addClass("btn-success");
+            $("#status").html('<i class="fas fa-check"></i> Aktiv');
+        })
+    })
+</script>
+</body>
+</html>

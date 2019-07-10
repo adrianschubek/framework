@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^robots.txt - [L]
+RewriteRule ^assets/(.*)$ /public/assets/$1 [L]
+
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ /public/index.php/$1 [L,QSA]
+#Options -Indexes
+#RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule . /public/index.php [L]
