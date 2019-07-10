@@ -32,14 +32,26 @@ class HomeController extends Controller
 
     public function page()
     {
-        $arr = explode(":", file_get_contents(ROOT . "/app/Cache/test.txt"));
+        $filepath = ROOT . "/app/Cache/test.txt";
+        if (!file_exists($filepath)) {
+            $this->error();
+            return;
+        }
+        $arr = explode(":", file_get_contents($filepath));
         $this->response->setBody($this->render("home.html", [
             "tempx" => $arr[0],
             "wet" => $arr[1],
             "uv" => $arr[4],
             "pressure" => $arr[2],
-            "height" => $arr[3]
+            "height" => $arr[3],
+            "last" => date("H:m:s")
         ]));
+        $this->response->send();
+    }
+
+    public function error()
+    {
+        $this->response->setBody($this->render("error.html"));
         $this->response->send();
     }
 }

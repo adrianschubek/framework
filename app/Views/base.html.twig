@@ -53,7 +53,7 @@
 
         .c4 {
             -webkit-background-clip: text;
-            background-image: -webkit-linear-gradient(107deg, #11cdef, #172b4d);
+            background-image: -webkit-linear-gradient(107deg, #3def42, #174d01);
             color: #172b4d;
             color: gradient-color-at(#9b0063, #ff4c1d);
             font-weight: 800;
@@ -72,6 +72,11 @@
             -webkit-text-fill-color: transparent;
             font-size: 32px;
             margin: 0 auto;
+        }
+
+        .s1 {
+            background: #fb6340;
+            background: linear-gradient(to right, #095cfb, #6f15ff)
         }</style>
 </head>
 <body class="bg-light">
@@ -93,7 +98,14 @@
                 <a class="nav-link" href="#">Programmiert von <b>Adrian Schubek</b></a>
             </li>
         </ul>
-{#        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">#}
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group" role="group" aria-label="First group">
+                <button type="button" class="btn s1 text-white" id="status"><i
+                            class="fas fa-history"></i> {% block lastupdater %}{% endblock %}
+                </button>
+            </div>
+        </div>
+        {#        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">#}
         {#            <div class="btn-group" role="group" aria-label="First group">#}
         {#                <button type="button" class="btn btn-outline-dark" disabled="disabled" id="status"><i#}
         {#                            class="fas fa-exclamation-triangle"></i> Inaktiv#}
@@ -106,60 +118,65 @@
     </div>
 </nav>
 <div class="container">
-    <div class="card-deck mt-5">
-        <div class="card grow shadow-sm">
-            <div class="card-body">
-                <h4 class="card-title c1"><i class="fas fa-thermometer-quarter c1"></i> Temperatur</h4>
-                <p class="card-text">
-                <h3>{% block temp %}{% endblock %}</h3></p>
-                <p class="card-text">
-                    <small class="text-muted">Zuletzt aktualisiert <b>{% block lastupdate %}{% endblock %}</b></small>
-                </p>
+    {% block content %}
+        <div class="card-deck mt-5">
+            <div class="card grow shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title c1"><i class="fas fa-thermometer-quarter c1"></i> Temperatur</h4>
+                    <p class="card-text">
+                    <h3>{% block temp %}{% endblock %}</h3></p>
+                    <p class="card-text">
+                        <small class="text-muted">Zuletzt aktualisiert <b>{% block lastupdate %}{% endblock %}</b>
+                        </small>
+                    </p>
+                </div>
+            </div>
+            <div class="card grow shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title c2"><i class="fas fa-tint c2"></i> Luftfeuchtigkeit</h4>
+                    <p class="card-text">
+                    <h3>{% block wet %}{% endblock %}</h3></p>
+                    <p class="card-text">
+                        <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
+                    </p>
+                </div>
+            </div>
+            <div class="card grow shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title c3"><i class="fas fa-weight-hanging c3"></i> Luftdruck</h4>
+                    <p class="card-text">
+                    <h3>{% block pressure %}{% endblock %}</h3></p>
+                    <p class="card-text">
+                        <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="card grow shadow-sm">
-            <div class="card-body">
-                <h4 class="card-title c2"><i class="fas fa-tint c2"></i> Luftfeuchtigkeit</h4>
-                <p class="card-text">
-                <h3>{% block wet %}{% endblock %}</h3></p>
-                <p class="card-text">
-                    <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
-                </p>
+        <div class="card-deck mt-5">
+            <div class="card grow shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title c4"><i class="fas fa-arrows-alt-v c4"></i> Höhe</h4>
+                    <p class="card-text">
+                    <h3>{% block height %}{% endblock %}</h3></p>
+                    <p class="card-text">
+                        <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
+                    </p>
+                </div>
+            </div>
+            <div class="card grow shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title c5"><i class="fas fa-sun c5"></i> UV-Index</h4>
+                    <p class="card-text">
+                    <h3>{% block uv %}{% endblock %}</h3></p>
+                    <p class="card-text">
+                        <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="card grow shadow-sm">
-            <div class="card-body">
-                <h4 class="card-title c3"><i class="fas fa-weight-hanging c3"></i> Luftdruck</h4>
-                <p class="card-text">
-                <h3>{% block pressure %}{% endblock %}</h3></p>
-                <p class="card-text">
-                    <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="card-deck mt-5">
-        <div class="card grow shadow-sm">
-            <div class="card-body">
-                <h4 class="card-title c4"><i class="fas fa-arrows-alt-v c4"></i> Höhe</h4>
-                <p class="card-text">
-                <h3>{% block height %}{% endblock %}</h3></p>
-                <p class="card-text">
-                    <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
-                </p>
-            </div>
-        </div>
-        <div class="card grow shadow-sm">
-            <div class="card-body">
-                <h4 class="card-title c5"><i class="fas fa-sun c5"></i> UV-Index</h4>
-                <p class="card-text">
-                <h3>{% block uv %}{% endblock %}</h3></p>
-                <p class="card-text">
-                    <small class="text-muted">Zuletzt aktualisiert <b>{{ block("lastupdate") }}</b></small>
-                </p>
-            </div>
-        </div>
-    </div>
+    {% endblock %}
+    {% block error %}
+    {% endblock %}
 </div>
 <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"

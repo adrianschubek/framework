@@ -17,8 +17,6 @@ $dispatcher = FastRoute\cachedDispatcher(function (RouteCollector $r) {
     ]]);
     $r->addRoute('GET', '/test', [Controllers\TestController::class, 'test']);
 
-//    $r->addRoute('GET', '/assets/{path:.+}', [Controllers\AssetsController::class, 'loadAssets']);
-
 }, [
     'cacheFile' => ROOT . cfg("cache.router"),
     'cacheDisabled' => !cfg("cache")
