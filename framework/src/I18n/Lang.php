@@ -32,14 +32,26 @@ class Lang
 
     /**
      * @param string $lang Sprache z.B. "de"
-     * @param string|array $data Pfad zur Datei oder Array
+     * @param string|array $data Pfad zur Datei oder String Array
      */
-    public static function add($lang, $data)
+    public static function add(string $lang, $data)
     {
         if (is_array($data)) {
             self::$strings[$lang] = $data;
-        } else if (is_string($lang) && file_exists(ROOT . sprintf("/app/Lang/%s", $lang))) {
+        }
+    }
 
+    /**
+     * @param string $lang
+     * @param string $filename
+     */
+    public static function addFromFile(string $lang, string $filename)
+    {
+        $path = ROOT . sprintf("/app/Lang/%s/%s", $lang, $filename);
+        if (file_exists($path)) {
+            $content = (include $path);
+        } else {
+            /** TODO:  */
         }
     }
 }
