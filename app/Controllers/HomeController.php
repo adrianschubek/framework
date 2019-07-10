@@ -30,7 +30,7 @@ class HomeController extends Controller
         $this->mqtt = $mqtt;
     }
 
-    public function page($args = [])
+    public function page()
     {
         $arr = explode(":", file_get_contents(ROOT . "/app/Cache/test.txt"));
         $this->response->setBody($this->render("home.html", [
