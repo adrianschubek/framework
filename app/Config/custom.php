@@ -5,5 +5,5 @@
 
 /** Eigene globale Einstellungen */
 return [
-    "mqtt.ip" => "192.168.1.100:1883",
+    "mqtt.ip" => "192.168.8.138:1883",
 ];

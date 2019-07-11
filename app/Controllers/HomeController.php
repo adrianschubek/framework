@@ -38,6 +38,8 @@ class HomeController extends Controller
             return;
         }
         $arr = explode(":", file_get_contents($filepath));
+//        array_walk($arr, $funcname)
+//        array_map(func_get_args(), $arr);
         $this->response->setBody($this->render("home.html", [
             "tempx" => $arr[0],
             "wet" => $arr[1],
