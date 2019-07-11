@@ -46,22 +46,6 @@ class Response implements ResponseInterface
         }
     }
 
-    final public function send()
-    {
-
-        ob_start();
-
-        foreach ($this->headers as $header) {
-            header($header);
-        }
-        echo $this->body;
-        if (isset($this->contentType)) {
-            header(sprintf("Content-type: %s", $this->contentType));
-        }
-
-        ob_end_flush();
-    }
-
     public function setContentType(string $type)
     {
         $this->contentType = $type;
@@ -80,6 +64,22 @@ class Response implements ResponseInterface
     function setCookie(string $name, string $value, int $expires)
     {
         setcookie($value, $value, $expires);
+    }
+
+    final public function send()
+    {
+
+        ob_start();
+
+        foreach ($this->headers as $header) {
+            header($header);
+        }
+        echo $this->body;
+        if (isset($this->contentType)) {
+            header(sprintf("Content-type: %s", $this->contentType));
+        }
+
+        ob_end_flush();
     }
 
 }

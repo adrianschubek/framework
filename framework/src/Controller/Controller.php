@@ -40,13 +40,13 @@ abstract class Controller
         $this->response = $response;
         $this->request = $request;
         $this->container = $container;
-        $this->logger->info("Request: --> " . ($request->getUrl() !== "") ?: "(cli)");
+        $this->logger->info("Request: --> " . ($request->getUrl() !== "") ? $request->getUrl() : "(cli)");
     }
 
-    final public function render(string $template, array $data = [])
+    final public function sendResponse()
     {
-//        $this->logger->debug(sprintf("-> %s(\"%s\", %s)", __METHOD__, $template, json_encode($data)));
-        return $this->view->render($template . ".twig", $data);
+        $this->runAfter();
+        $this->response->send();
     }
 
     final public function runAfter()
@@ -54,6 +54,12 @@ abstract class Controller
         foreach ($this->afterMiddleware as $m) {
             $this->response = $m->process($this->request, $this->response);
         }
+    }
+
+    final public function render(string $template, array $data = [])
+    {
+//        $this->logger->debug(sprintf("-> %s(\"%s\", %s)", __METHOD__, $template, json_encode($data)));
+        return $this->view->render($template . ".twig", $data);
     }
 
     final public function registerMiddleware(MiddlewareInterface $middleware, string $type)

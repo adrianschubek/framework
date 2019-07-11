@@ -49,12 +49,12 @@ class HomeController extends Controller
             "height" => $arr[3],
             "last" => date("H:m:s")
         ]));
-        $this->response->send();
+        $this->sendResponse();
     }
 
     public function error()
     {
         $this->response->setBody($this->render("error.html"));
-        $this->response->send();
+        $this->sendResponse();
     }
 }
