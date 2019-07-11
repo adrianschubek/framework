@@ -6,6 +6,8 @@
 namespace Framework\Security;
 
 
+use Exception;
+
 final class Nonce
 {
     /** Erstellt ein Nonce
@@ -20,9 +22,14 @@ final class Nonce
                 return bin2hex(random_bytes($length));
             }
             return random_bytes($length);
-        } catch (\Exception $ex) {
+        } catch (Exception $ex) {
             return false;
         }
+    }
+
+    public static function validate(string $nonce)
+    {
+        return;
     }
 
 

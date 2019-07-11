@@ -46,8 +46,9 @@ class Response implements ResponseInterface
         }
     }
 
-    public function send()
+    final public function send()
     {
+
         ob_start();
 
         foreach ($this->headers as $header) {

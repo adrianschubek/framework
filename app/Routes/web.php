@@ -14,6 +14,9 @@ $dispatcher = FastRoute\cachedDispatcher(function (RouteCollector $r) {
         "before" => [
             Middleware\OnlyDebugMiddleware::class
         ],
+        "after" => [
+
+        ]
     ]]);
     $r->addRoute('GET', '/test', [Controllers\TestController::class, 'test']);
 

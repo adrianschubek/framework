@@ -27,7 +27,13 @@ abstract class Controller
     protected $container;
     private $view;
 
-    public function __construct(RequestInterface $request, ResponseInterface $response, Logger $logger, Environment $twig, Container $container)
+    public function __construct(
+        RequestInterface $request,
+        ResponseInterface $response,
+        Logger $logger,
+        Environment $twig,
+        Container $container
+    )
     {
         $this->logger = $logger;
         $this->view = $twig;
@@ -40,7 +46,6 @@ abstract class Controller
     final public function render(string $template, array $data = [])
     {
 //        $this->logger->debug(sprintf("-> %s(\"%s\", %s)", __METHOD__, $template, json_encode($data)));
-        $this->runAfter();
         return $this->view->render($template . ".twig", $data);
     }
 
@@ -49,12 +54,11 @@ abstract class Controller
         foreach ($this->afterMiddleware as $m) {
             $this->response = $m->process($this->request, $this->response);
         }
-//        var_dump("After");
     }
 
     final public function registerMiddleware(MiddlewareInterface $middleware, string $type)
     {
-        switch ($type) {
+        switch (strtolower($type)) {
             default:
             case "before":
                 $this->beforeMiddleware[] = $middleware;
@@ -73,7 +77,6 @@ abstract class Controller
         foreach ($this->beforeMiddleware as $m) {
             $this->response = $m->process($this->request, $this->response);
         }
-//        var_dump("runBefore");
     }
 
     final public function finally()
@@ -81,7 +84,6 @@ abstract class Controller
         foreach ($this->finallyMiddleware as $m) {
             $this->response = $m->process($this->request, $this->response);
         }
-//        var_dump("Finally");
     }
 
     final public function __call($name, $arguments)
