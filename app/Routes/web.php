@@ -48,7 +48,6 @@ switch ($route[0]) {
             $container->call([$controller[0], "runBefore"]);
             unset($controller[2]);
         }
-//        die(json($container->call([])));
         $container->call($controller, $parameters);
         $container->call([$controller[0], "runAfter"]);
         $container->call([$controller[0], "finally"]);

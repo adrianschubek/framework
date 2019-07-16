@@ -68,7 +68,6 @@ class Response implements ResponseInterface
 
     final public function send()
     {
-
         ob_start();
 
         foreach ($this->headers as $header) {

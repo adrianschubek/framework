@@ -62,6 +62,10 @@ abstract class Controller
         return $this->view->render($template . ".twig", $data);
     }
 
+    /**
+     * @param MiddlewareInterface $middleware
+     * @param string $type
+     */
     final public function registerMiddleware(MiddlewareInterface $middleware, string $type)
     {
         switch (strtolower($type)) {
