@@ -6,7 +6,9 @@
 namespace Framework\Exception;
 
 
-class ConfigNotFound extends \Exception
+use Exception;
+
+class ConfigNotFound extends Exception
 {
 
 }

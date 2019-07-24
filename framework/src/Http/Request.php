@@ -47,7 +47,7 @@ class Request implements RequestInterface
         array $session = null
     )
     {
-        if (!php_sapi_name() === "cli") {
+        if (php_sapi_name() !== "cli") {
             $this->url = $url ?? $_SERVER['REQUEST_URI'];
             $this->cookies = $cookies ?? $_COOKIE;
             $this->method = $method ?? $_SERVER['REQUEST_METHOD'];

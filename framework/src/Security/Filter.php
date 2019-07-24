@@ -12,7 +12,7 @@ final class Filter
      * @param string|array &$var
      * @return void
      */
-    public static function filter(&$var)
+    public static function filterString(&$var)
     {
         if (is_array($var)) {
             $var = filter_var_array($var, FILTER_SANITIZE_STRING);

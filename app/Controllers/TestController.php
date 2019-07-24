@@ -6,33 +6,31 @@
 namespace App\Controllers;
 
 use App\Models\TestModel;
-use DI\Container;
+use DI\Annotation\Inject;
 use Framework\Controller\Controller;
-use Framework\Http\RequestInterface;
-use Framework\Http\ResponseInterface;
-use Framework\Logger\Logger;
-use Twig\Environment;
 
 class TestController extends Controller
 {
+    /**
+     * @Inject
+     * @var TestModel
+     */
     protected $testModel;
 
-    public function __construct(
-        RequestInterface $request,
-        ResponseInterface $response,
-        Logger $logger,
-        Environment $twig,
-        Container $container,
-        TestModel $model
-    )
+    public function test()
     {
-        parent::__construct($request, $response, $logger, $twig, $container);
-        $this->testModel = $model;
+        $this->response->setBody(
+            $this->testModel->hello()
+        );
+        $this->sendResponse();
     }
 
-    public function test($args = [])
+    public function add(float $x, float $y)
     {
-        $this->logger->debug(json($this->middleware));
-        $this->testModel->hello();
+        d($this);
+        $this->response->setBody(
+            $x + $y
+        );
+        $this->sendResponse();
     }
 }

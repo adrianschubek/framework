@@ -3,35 +3,25 @@
 namespace App\Controllers;
 
 use App\Models\MQTT;
-use DI\Container;
+use DI\Annotation\Inject;
 use Framework\Controller\Controller;
-use Framework\Http\RequestInterface;
-use Framework\Http\ResponseInterface;
-use Framework\Logger\Logger;
-use Twig\Environment;
 
 /**
  * Copyright (c) 2019. Adrian Schubek.
  */
 class HomeController extends Controller
 {
+    /**
+     * @Inject
+     * @var MQTT
+     */
     private $mqtt;
 
-    public function __construct(
-        RequestInterface $request,
-        ResponseInterface $response,
-        Logger $logger,
-        Environment $twig,
-        Container $container,
-        MQTT $mqtt
-    )
-    {
-        parent::__construct($request, $response, $logger, $twig, $container);
-        $this->mqtt = $mqtt;
-    }
 
     public function page()
     {
+//        d($this);
+
         $filepath = ROOT . "/app/Cache/test.txt";
         if (!file_exists($filepath)) {
             $this->error();

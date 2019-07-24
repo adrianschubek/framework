@@ -11,6 +11,6 @@ class TestModel extends Model
 {
     public function hello()
     {
-        $this->logger->debug("HALLO!!!!!");
+        return "Ja okay geht ";
     }
 }

@@ -5,16 +5,6 @@
 
 // 1. Autoloader
 require_once __DIR__ . "/../../vendor/autoload.php";
-spl_autoload_register(function ($className) {
-    $className = str_replace("\\", DIRECTORY_SEPARATOR, $className);
-    if (strpos($className, "Framework") !== false) {
-        $className = str_replace("Framework\\", "", $className);
-        require_once __DIR__ . '..' . DIRECTORY_SEPARATOR . $className . '.php';
-    } else {
-        $className = str_replace("App\\", "", $className);
-        require_once __DIR__ . "/../../app/" . $className . '.php';
-    }
-});
 
 use Framework\Core\Autoloader;
 use Framework\Core\ConfigLoader;
@@ -29,7 +19,7 @@ $cfgloader->load(["app", "database", "debug", "session", "custom"]);
 
 // 4. Dependency Injection Container erstellen
 $containerBuilder = new DI\ContainerBuilder();
-$containerBuilder->useAnnotations(false);
+$containerBuilder->useAnnotations(true);
 $containerBuilder->useAutowiring(true);
 if (!cfg("debug")) {
     $containerBuilder->enableCompilation(ROOT . cfg("cache.container"));
@@ -38,3 +28,9 @@ if (!cfg("debug")) {
 $containerBuilder->addDefinitions(ROOT . "/framework/src/Core/definitions.php");
 
 $container = $containerBuilder->build();
+
+// Nur in DEVELOPMENT (app.env === "dev")
+if (cfg("app.env") === "dev") {
+    /** @noinspection PhpFullyQualifiedNameUsageInspection */
+    \Kint\Renderer\RichRenderer::$theme = 'aante-light.css';
+}

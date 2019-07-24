@@ -10,15 +10,13 @@ use FastRoute\RouteCollector;
 $dispatcher = FastRoute\cachedDispatcher(function (RouteCollector $r) {
 
     $r->addRoute('GET', '/listener', [Controllers\ListenerController::class, 'show']);
-    $r->addRoute('GET', '/', [Controllers\HomeController::class, 'page', [
-        "before" => [
+    $r->addRoute('GET', '/', [Controllers\HomeController::class, 'page',
+        [
             Middleware\OnlyDebugMiddleware::class
-        ],
-        "after" => [
-
         ]
-    ]]);
+    ]);
     $r->addRoute('GET', '/test', [Controllers\TestController::class, 'test']);
+    $r->addRoute('GET', '/add/{x:[0-9]+}/{y:[0-9]+}', [Controllers\TestController::class, 'add']);
 
 }, [
     'cacheFile' => ROOT . cfg("cache.router"),
@@ -36,20 +34,25 @@ switch ($route[0]) {
     case FastRoute\Dispatcher::FOUND:
         $controller = $route[1];
         $parameters = $route[2];
+
         if (isset($controller[2])) {
             $arr = $controller[2];
-            foreach ($arr as $type => $middleware) {
-                foreach ($middleware as $m) {
-                    $container->call([$controller[0], "registerMiddleware"], [
-                        new $m, $type
-                    ]);
-                }
+//            foreach ($arr as $type => $middleware) {
+//                foreach ($middleware as $m) {
+//                    $container->call([$controller[0], "registerMiddleware"], [
+//                        new $m, $type
+//                    ]);
+//                }
+//            }
+
+            foreach ($arr as $middleware) {
+                $container->call([$controller[0], "registerMiddleware"], [new $middleware]);
             }
+
             $container->call([$controller[0], "runBefore"]);
             unset($controller[2]);
         }
         $container->call($controller, $parameters);
-        $container->call([$controller[0], "runAfter"]);
         $container->call([$controller[0], "finally"]);
         break;
 }

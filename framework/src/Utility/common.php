@@ -49,10 +49,17 @@ if (!function_exists("nonce")) {
     }
 }
 
-if (!function_exists("route")) {
-    function route(string $route)
+if (!function_exists("redirect")) {
+    function redirect(string $route)
     {
         header("Location: $route");
+    }
+}
+
+if (!function_exists("filter")) {
+    function filter(&$data)
+    {
+        Framework\Security\Filter::filterString($data);
     }
 }
 

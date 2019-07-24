@@ -12,6 +12,8 @@ return [
     /**
      * App
      */
+    "app.env" => "dev",
+
     "app.name" => "MQTT Test",
 
     "app.author" => "Adrian Schubek",

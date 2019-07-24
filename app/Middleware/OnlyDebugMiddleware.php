@@ -7,22 +7,19 @@ namespace App\Middleware;
 
 use Framework\Http\RequestInterface;
 use Framework\Http\ResponseInterface;
-use Framework\Middleware\MiddlewareInterface;
+use Framework\Middleware\Middleware;
 
-class OnlyDebugMiddleware implements MiddlewareInterface
+class OnlyDebugMiddleware extends Middleware
 {
-    public function process(RequestInterface $request, ResponseInterface $response)
-    {
-        $response->setBody("");
-        $response->send();
+    public $type = self::BEFORE;
 
-        if (cfg("debug")) return $response;
-        return $response->setBody("Abgelehnt");
-//        return $response = $next($request);
+    public function process(RequestInterface &$request, ResponseInterface &$response): bool
+    {
+        if (cfg("debug")) {
+            return true;
+        }
+        $response->setStatusCode(401);
+        $response->setBody("Abgelehnt");
+        return false;
     }
-//
-//    public function process(): bool
-//    {
-//        return !!cfg("debug");
-//    }
 }

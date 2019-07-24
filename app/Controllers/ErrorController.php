@@ -13,14 +13,16 @@ class ErrorController extends Controller
     public function notFound($args)
     {
         $this->response->setStatusCode(404);
+        $this->response->setBody($this->render("error.html"));
         $this->logger->warn(sprintf("File not found: %s", $args));
-        $this->response->send();
+        $this->sendResponse();
     }
 
     public function notAllowed($args)
     {
         $this->response->setStatusCode(405);
+        $this->response->setBody($this->render("error.html"));
         $this->logger->warn(sprintf("Method not allowed: %s", $args));
-        $this->response->send();
+        $this->sendResponse();
     }
 }

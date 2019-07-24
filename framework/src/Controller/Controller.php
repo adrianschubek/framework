@@ -6,54 +6,57 @@
 namespace Framework\Controller;
 
 use BadMethodCallException;
+use DI\Annotation\Inject;
 use DI\Container;
 use Framework\Http\RequestInterface;
 use Framework\Http\ResponseInterface;
 use Framework\Logger\Logger;
-use Framework\Middleware\MiddlewareInterface;
+use Framework\Middleware\Middleware;
 use Twig\Environment;
 
 abstract class Controller
 {
-    protected $logger;
-    /** @var MiddlewareInterface[] */
+    /** @var Middleware[] */
     protected $beforeMiddleware = [];
-    /** @var MiddlewareInterface[] */
+
+    /** @var Middleware[] */
     protected $afterMiddleware = [];
-    /** @var MiddlewareInterface[] */
+
+    /** @var Middleware[] */
     protected $finallyMiddleware = [];
+
+    /**
+     * @Inject
+     * @var Logger
+     */
+    protected $logger;
+
+    /**
+     * @Inject
+     * @var RequestInterface
+     */
     protected $request;
+
+    /**
+     * @Inject
+     * @var ResponseInterface
+     */
     protected $response;
+
+    /**
+     * @Inject
+     * @var Container
+     */
     protected $container;
+
+    /**
+     * @Inject
+     * @var Environment
+     */
     private $view;
 
-    public function __construct(
-        RequestInterface $request,
-        ResponseInterface $response,
-        Logger $logger,
-        Environment $twig,
-        Container $container
-    )
+    public function __construct()
     {
-        $this->logger = $logger;
-        $this->view = $twig;
-        $this->response = $response;
-        $this->request = $request;
-        $this->container = $container;
-        $this->logger->info("Request: --> " . ($request->getUrl() !== "") ? $request->getUrl() : "(cli)");
-    }
-
-    final public function sendResponse()
-    {
-        $this->runAfter();
-        $this->response->send();
-    }
-
-    final public function runAfter()
-    {
-        foreach ($this->afterMiddleware as $m) {
-            $this->response = $m->process($this->request, $this->response);
-        }
     }
 
     final public function render(string $template, array $data = [])
@@ -63,11 +66,11 @@ abstract class Controller
     }
 
     /**
-     * @param MiddlewareInterface $middleware
-     * @param string $type
+     * @param Middleware $middleware
      */
-    final public function registerMiddleware(MiddlewareInterface $middleware, string $type)
+    final public function registerMiddleware(Middleware $middleware)
     {
+        $type = $middleware->type;
         switch (strtolower($type)) {
             default:
             case "before":
@@ -85,14 +88,36 @@ abstract class Controller
     final public function runBefore()
     {
         foreach ($this->beforeMiddleware as $m) {
-            $this->response = $m->process($this->request, $this->response);
+            if ($m->process($this->request, $this->response) === false) {
+                $this->sendResponse();
+                die;
+            }
+        }
+    }
+
+    final public function sendResponse()
+    {
+        $this->runAfter();
+        $this->response->send();
+    }
+
+    final public function runAfter()
+    {
+        foreach ($this->afterMiddleware as $m) {
+            if ($m->process($this->request, $this->response) === false) {
+                $this->sendResponse();
+                die;
+            }
         }
     }
 
     final public function finally()
     {
         foreach ($this->finallyMiddleware as $m) {
-            $this->response = $m->process($this->request, $this->response);
+            if ($m->process($this->request, $this->response) === false) {
+                $this->sendResponse();
+                die;
+            }
         }
     }
 

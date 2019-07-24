@@ -8,8 +8,6 @@ namespace Framework\Http;
 
 class Response implements ResponseInterface
 {
-    protected $url;
-
     protected $cookies = [];
 
     protected $method;
@@ -26,24 +24,7 @@ class Response implements ResponseInterface
 
     public function setStatusCode(int $httpStatus)
     {
-        switch ($httpStatus) {
-            default:
-            case 200:
-                $this->statusCode = "HTTP/1.1 200 OK";
-                break;
-            case 400:
-                $this->statusCode = "HTTP/1.1 400 Bad Request";
-                break;
-            case 401:
-                $this->statusCode = "HTTP/1.1 400 Unauthorized";
-                break;
-            case 403:
-                $this->statusCode = "HTTP/1.1 403 Forbidden";
-                break;
-            case 404:
-                $this->statusCode = "HTTP/1.1 404 Not Found";
-                break;
-        }
+        $this->statusCode = http_response_code($httpStatus);
     }
 
     public function setContentType(string $type)
@@ -75,7 +56,10 @@ class Response implements ResponseInterface
         }
         echo $this->body;
         if (isset($this->contentType)) {
-            header(sprintf("Content-type: %s", $this->contentType));
+            header(sprintf("Content-Type: %s", $this->contentType));
+        }
+        if (isset($this->statusCode)) {
+            header($this->statusCode);
         }
 
         ob_end_flush();
