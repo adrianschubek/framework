@@ -9,15 +9,19 @@ namespace Framework\Http;
 interface ResponseInterface
 {
 
-    function setStatusCode(int $httpStatus);
+    function statusCode(int $httpStatus);
 
-    function setContentType(string $type);
+    function contentType(string $type);
 
-    function setBody($body);
+    function body($body);
 
-    function setHeader(string $name, string $value);
+    function header(string $name, string $value);
 
-    function setCookie(string $name, string $value, int $expires);
+    function cookie(string $name, string $value, int $expires);
 
     function send();
+
+    function json(string $body);
+
+    function image(string $filepath);
 }

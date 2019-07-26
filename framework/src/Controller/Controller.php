@@ -8,6 +8,7 @@ namespace Framework\Controller;
 use BadMethodCallException;
 use DI\Annotation\Inject;
 use DI\Container;
+use Framework\Cache\Cache;
 use Framework\Http\RequestInterface;
 use Framework\Http\ResponseInterface;
 use Framework\Logger\Logger;
@@ -89,13 +90,16 @@ abstract class Controller
     {
         foreach ($this->beforeMiddleware as $m) {
             if ($m->process($this->request, $this->response) === false) {
-                $this->sendResponse();
+                $this->send();
                 die;
             }
         }
     }
 
-    final public function sendResponse()
+    /**
+     * Sendet die Response
+     */
+    final public function send()
     {
         $this->runAfter();
         $this->response->send();
@@ -105,7 +109,7 @@ abstract class Controller
     {
         foreach ($this->afterMiddleware as $m) {
             if ($m->process($this->request, $this->response) === false) {
-                $this->sendResponse();
+                $this->send();
                 die;
             }
         }
@@ -115,7 +119,7 @@ abstract class Controller
     {
         foreach ($this->finallyMiddleware as $m) {
             if ($m->process($this->request, $this->response) === false) {
-                $this->sendResponse();
+                $this->send();
                 die;
             }
         }

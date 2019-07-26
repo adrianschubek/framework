@@ -56,6 +56,27 @@ if (!function_exists("redirect")) {
     }
 }
 
+if (!function_exists("__")) {
+    function __()
+    {
+
+    }
+}
+
+if (!function_exists("toLower")) {
+    function toLower(string &$str)
+    {
+        $str = mb_strtolower($str);
+    }
+}
+
+if (!function_exists("toUpper")) {
+    function toUpper(string &$str)
+    {
+        $str = mb_strtoupper($str);
+    }
+}
+
 if (!function_exists("filter")) {
     function filter(&$data)
     {

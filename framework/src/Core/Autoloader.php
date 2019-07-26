@@ -5,7 +5,11 @@
 
 namespace Framework\Core;
 
-
+/**
+ * Class Autoloader
+ * @package Framework\Core
+ * @deprecated
+ */
 class Autoloader
 {
     /**

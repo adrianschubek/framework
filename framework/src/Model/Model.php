@@ -5,17 +5,49 @@
 
 namespace Framework\Model;
 
-
+use DI\Annotation\Inject;
 use Framework\Database\Database;
 use Framework\Logger\Logger;
 
-abstract class Model
+class Model implements ModelInterface
 {
-    protected $db, $logger;
+    /**
+     * @Inject
+     * @var Database
+     */
+    protected static $db;
 
-    public function __construct(Database $db, Logger $logger)
+    /**
+     * @Inject
+     * @var Logger
+     */
+    protected $logger;
+
+    /**
+     * @var string
+     */
+    protected $table;
+
+    /**
+     * @var string
+     */
+    protected $primaryKey = "id";
+
+    /** @var array */
+    private $data = [];
+
+//    final public static function find($data)
+//    {
+//        self::$db->query("SELECT * FROM :table WHERE ");
+//    }
+
+    public function __set($name, $value)
     {
-        $this->db = $db;
-        $this->logger = $logger;
+        $this->data[$name] = $value;
+    }
+
+    static function find()
+    {
+        // TODO: Implement find() method.
     }
 }

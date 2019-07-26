@@ -12,6 +12,8 @@ class Email
 
     private $toEmail;
 
+    private $subject;
+
     private $body;
 
 }

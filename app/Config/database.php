@@ -9,9 +9,13 @@
 return [
     "db.host" => "localhost",
 
-    "db.name" => "",
+    "db.name" => "test",
 
     "db.user" => "root",
 
-    "db.pass" => ""
+    "db.pass" => "",
+
+    "db.engine" => "InnoDB",
+
+    "db.charset" => "utf8"
 ];

@@ -12,7 +12,7 @@ return [
     /**
      * App
      */
-    "app.env" => "dev",
+    "app.env" => "dev", // "dev" oder "prod"
 
     "app.name" => "MQTT Test",
 

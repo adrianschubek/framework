@@ -23,7 +23,7 @@ class AssetsController extends Controller
 //        $this->response->setContentType(mime_content_type($fullpath));
         $this->logger->debug($fullpath);
 //        $this->logger->debug(mime_content_type($fullpath));
-        $this->response->setBody(file_get_contents($fullpath));
+        $this->response->body(file_get_contents($fullpath));
         $this->logger->info("-> /assets/$path");
         $this->response->send();
 //        $this->logger->debug(__METHOD__ . ROOT . "/public/assets/$path");

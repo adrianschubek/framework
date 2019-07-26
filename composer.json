@@ -11,7 +11,8 @@
         "sskaje/mqtt": "*",
         "mnapoli/silly-php-di": "^1.2",
         "doctrine/annotations": "^1.6",
-        "ralouphie/getallheaders": "^3.0"
+        "ralouphie/getallheaders": "^3.0",
+        "nesbot/carbon": "^2.21"
     },
     "require-dev": {
         "kint-php/kint": "*"
@@ -20,7 +21,10 @@
         "psr-4": {
             "App\\": "app",
             "Framework\\": "framework/src"
-        }
+        },
+        "files": [
+            "framework/src/Utility/common.php"
+        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true

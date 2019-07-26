@@ -7,16 +7,19 @@ use App\Controllers;
 use App\Middleware;
 use FastRoute\RouteCollector;
 
+//Router::add('GET', '/cache', [Controllers\TestController::class, 'show']);
+
 $dispatcher = FastRoute\cachedDispatcher(function (RouteCollector $r) {
 
     $r->addRoute('GET', '/listener', [Controllers\ListenerController::class, 'show']);
     $r->addRoute('GET', '/', [Controllers\HomeController::class, 'page',
-        [
-            Middleware\OnlyDebugMiddleware::class
-        ]
+        [Middleware\OnlyDebugMiddleware::class]
     ]);
     $r->addRoute('GET', '/test', [Controllers\TestController::class, 'test']);
     $r->addRoute('GET', '/add/{x:[0-9]+}/{y:[0-9]+}', [Controllers\TestController::class, 'add']);
+    $r->addRoute('GET', '/cache', [Controllers\CacheTestController::class, 'show']);
+    $r->addRoute('GET', '/func', [Controllers\CacheTestController::class, 'allFunc']);
+    $r->addRoute('GET', '/clear', [Controllers\CacheTestController::class, 'clearCache']);
 
 }, [
     'cacheFile' => ROOT . cfg("cache.router"),

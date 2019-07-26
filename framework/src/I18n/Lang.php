@@ -30,6 +30,11 @@ class Lang
         return self::$lang === $name;
     }
 
+    public static function get(string $)
+    {
+
+    }
+
     /**
      * @param string $lang Sprache z.B. "de"
      * @param string|array $data Pfad zur Datei oder String Array
@@ -47,11 +52,13 @@ class Lang
      */
     public static function addFromFile(string $lang, string $filename)
     {
-        $path = ROOT . sprintf("/app/Lang/%s/%s", $lang, $filename);
+        $path = ROOT . sprintf("/app/Lang/%s/%s", toLower($lang), toLower($filename));
         if (file_exists($path)) {
             $content = (include $path);
         } else {
             /** TODO:  */
         }
     }
+
+    public static function get()
 }

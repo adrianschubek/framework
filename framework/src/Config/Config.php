@@ -15,7 +15,7 @@ class Config implements ConfigInterface
 
     public static function get(string $key)
     {
-        return self::$config[$key];
+        return self::$config[$key] ?? false;
     }
 
     public static function set($key, $val)

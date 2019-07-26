@@ -22,47 +22,59 @@ class Response implements ResponseInterface
 
     protected $statusCode;
 
-    public function setStatusCode(int $httpStatus)
+    public function statusCode(int $httpStatus)
     {
         $this->statusCode = http_response_code($httpStatus);
     }
 
-    public function setContentType(string $type)
-    {
-        $this->contentType = $type;
-    }
-
-    function setBody($body)
-    {
-        $this->body = $body;
-    }
-
-    function setHeader(string $name, $value)
+    public function header(string $name, $value)
     {
         $this->headers[$name] = $value;
     }
 
-    function setCookie(string $name, string $value, int $expires)
+    public function cookie(string $name, string $value, int $expires)
     {
-        setcookie($value, $value, $expires);
+        setcookie($name, $value, $expires);
     }
 
-    final public function send()
+    public function send()
     {
         ob_start();
 
-        foreach ($this->headers as $header) {
-            header($header);
+        if (!empty($this->headers)) {
+            foreach ($this->headers as $header) {
+                header($header);
+            }
         }
-        echo $this->body;
-        if (isset($this->contentType)) {
+        if (!empty($this->contentType)) {
             header(sprintf("Content-Type: %s", $this->contentType));
         }
-        if (isset($this->statusCode)) {
+        if (!empty($this->statusCode)) {
             header($this->statusCode);
         }
+        echo $this->body;
 
         ob_end_flush();
     }
 
+    public function json(string $json, bool $prettyPrint = false)
+    {
+        $this->contentType("application/json");
+        $this->body($json);
+    }
+
+    public function contentType(string $type)
+    {
+        $this->contentType = $type;
+    }
+
+    public function body($body)
+    {
+        $this->body = $body;
+    }
+
+    public function image(string $filepath)
+    {
+        // TODO: Implement image() method.
+    }
 }

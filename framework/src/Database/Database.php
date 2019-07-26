@@ -41,9 +41,21 @@ class Database
     /**
      * @return PDO
      */
-    public function getConnection(): PDO
+    public function connection(): PDO
     {
         return $this->db;
+    }
+
+    public function query(string $statement, array $params = [])
+    {
+        $stmt = $this->db->prepare($statement);
+        if (!$stmt->execute($params)) {
+            return false;
+        }
+        if ($stmt->rowCount() === 0) {
+            return false;
+        }
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
 

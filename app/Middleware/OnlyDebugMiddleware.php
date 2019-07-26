@@ -18,8 +18,8 @@ class OnlyDebugMiddleware extends Middleware
         if (cfg("debug")) {
             return true;
         }
-        $response->setStatusCode(401);
-        $response->setBody("Abgelehnt");
+        $response->statusCode(401);
+        $response->body("Abgelehnt");
         return false;
     }
 }

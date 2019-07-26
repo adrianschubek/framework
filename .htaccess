@@ -1,6 +1,6 @@
 RewriteEngine On
 
-RewriteRule ^robots.txt - [L]
+RewriteRule ^robots.txt$ /public/robots.txt [L]
 RewriteRule ^assets/(.*)$ /public/assets/$1 [L]
 
 RewriteCond %{REQUEST_URI} !^/public/

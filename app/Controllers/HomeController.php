@@ -31,7 +31,7 @@ class HomeController extends Controller
         $arr = array_map(function ($x) {
             return str_replace(".", ",", $x);
         }, $arr);
-        $this->response->setBody($this->render("home.html", [
+        $this->response->body($this->render("home.html", [
             "tempx" => $arr[0],
             "wet" => $arr[1],
             "uv" => $arr[4],
@@ -39,12 +39,12 @@ class HomeController extends Controller
             "height" => $arr[3],
             "last" => date("H:m:s")
         ]));
-        $this->sendResponse();
+        $this->send();
     }
 
     public function error()
     {
-        $this->response->setBody($this->render("error.html"));
-        $this->sendResponse();
+        $this->response->body($this->render("error.html"));
+        $this->send();
     }
 }
