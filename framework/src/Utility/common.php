@@ -64,6 +64,13 @@ if (!function_exists("app")) {
     }
 }
 
+if (!function_exists("abort")) {
+    function abort(int $code)
+    {
+
+    }
+}
+
 if (!function_exists("call")) {
     function call(callable $callable, array $params)
     {
@@ -113,9 +120,16 @@ if (!function_exists("json")) {
     }
 }
 
-if (!function_exists("")) {
+if (!function_exists("toArray")) {
     function toArray($data)
     {
         return json_decode($data, true);
+    }
+}
+
+if (!function_exists("response")) {
+    function response()
+    {
+
     }
 }

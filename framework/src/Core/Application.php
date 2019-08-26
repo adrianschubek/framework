@@ -6,6 +6,7 @@
 namespace Framework\Core;
 
 use DI\Container;
+use Framework\Facades\Response;
 use Framework\Http\ResponseInterface;
 use Psr\Container\ContainerInterface;
 
@@ -28,6 +29,9 @@ class Application implements ApplicationInterface
 
     public function send(?ResponseInterface $response)
     {
-        $response->send();
+        if ($response) {
+            $response->send();
+        }
+        Response::send();
     }
 }

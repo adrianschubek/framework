@@ -28,13 +28,13 @@ $dispatcher = FastRoute\cachedDispatcher(function (RouteCollector $r) {
 
 $route = $dispatcher->dispatch($_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI']);
 switch ($route[0]) {
-    case FastRoute\Dispatcher::NOT_FOUND:
+    case FastRoute\Dispatcher::NOT_FOUND: // 404
         $container->call([cfg("router.error.controller"), cfg("router.error.not_found")], [$_SERVER['REQUEST_URI']]);
         break;
-    case FastRoute\Dispatcher::METHOD_NOT_ALLOWED:
+    case FastRoute\Dispatcher::METHOD_NOT_ALLOWED: // 405
         $container->call([cfg("router.error.controller"), cfg("router.error.method_not_allowed")], [$_SERVER['REQUEST_URI']]);
         break;
-    case FastRoute\Dispatcher::FOUND:
+    case FastRoute\Dispatcher::FOUND: // 302
         $controller = $route[1];
         $parameters = $route[2];
 
@@ -47,9 +47,6 @@ switch ($route[0]) {
             unset($controller[2]);
         }
         $response = $container->call($controller, $parameters);
-        if (!$response) {
-            throw new NoResponse();
-        }
         App::send($response);
         $container->call([$controller[0], "runAfter"]);
         break;

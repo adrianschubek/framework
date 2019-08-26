@@ -10,5 +10,5 @@ use Framework\Support\Facade;
 
 class Response extends Facade
 {
-    protected static $name = \Framework\Http\Response::class;
+    protected static $name = \Framework\Http\ResponseInterface::class;
 }

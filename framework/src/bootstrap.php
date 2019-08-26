@@ -11,6 +11,10 @@ use Framework\Config\Config;
 use Framework\Core\Application;
 use Framework\Core\ConfigLoader;
 
+//set_exception_handler(function (Exception $exception) {
+//    echo get_class($exception) . $exception->getFile() . " -- " . $exception->getLine();
+//});
+
 // 2. Einstellungen laden
 $cfgLoader = new ConfigLoader();
 $cfgLoader->load(["app", "database", "debug", "session", "custom"]);
