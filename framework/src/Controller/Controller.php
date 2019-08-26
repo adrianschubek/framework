@@ -8,7 +8,6 @@ namespace Framework\Controller;
 use BadMethodCallException;
 use DI\Annotation\Inject;
 use DI\Container;
-use Framework\Cache\Cache;
 use Framework\Http\RequestInterface;
 use Framework\Http\ResponseInterface;
 use Framework\Logger\Logger;
@@ -22,9 +21,6 @@ abstract class Controller
 
     /** @var Middleware[] */
     protected $afterMiddleware = [];
-
-    /** @var Middleware[] */
-    protected $finallyMiddleware = [];
 
     /**
      * @Inject
@@ -56,10 +52,6 @@ abstract class Controller
      */
     private $view;
 
-    public function __construct()
-    {
-    }
-
     final public function render(string $template, array $data = [])
     {
 //        $this->logger->debug(sprintf("-> %s(\"%s\", %s)", __METHOD__, $template, json_encode($data)));
@@ -73,15 +65,11 @@ abstract class Controller
     {
         $type = $middleware->type;
         switch (strtolower($type)) {
-            default:
             case "before":
                 $this->beforeMiddleware[] = $middleware;
                 break;
             case "after":
                 $this->afterMiddleware[] = $middleware;
-                break;
-            case "finally":
-                $this->finallyMiddleware[] = $middleware;
                 break;
         }
     }
@@ -101,7 +89,6 @@ abstract class Controller
      */
     final public function send()
     {
-        $this->runAfter();
         $this->response->send();
     }
 

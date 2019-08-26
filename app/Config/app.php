@@ -3,8 +3,6 @@
  * Copyright (c) 2019. Adrian Schubek.
  */
 
-define("ROOT", __DIR__ . "/../..");
-
 /**
  * Allgemeine Einstellungen
  */
@@ -14,7 +12,7 @@ return [
      */
     "app.env" => "dev", // "dev" oder "prod"
 
-    "app.name" => "MQTT Test",
+    "app.name" => "",
 
     "app.author" => "Adrian Schubek",
 
@@ -54,4 +52,13 @@ return [
     "cache.container" => '/app/Cache/Container',
 
     "cache.container.proxy" => '/app/Cache/Proxy',
+
+    /**
+     * Router
+     */
+    "router.error.controller" => App\Controllers\ErrorController::class,
+
+    "router.error.not_found" => "notFound",
+
+    "router.error.method_not_allowed" => "notAllowed",
 ];

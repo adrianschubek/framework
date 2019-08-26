@@ -4,6 +4,7 @@
  */
 
 use Framework\Database\Database;
+use Framework\Facades\Response as ResponseFacade;
 use Framework\Http\Request;
 use Framework\Http\RequestInterface;
 use Framework\Http\Response;
@@ -12,6 +13,7 @@ use Framework\Logger\Logger;
 use Framework\Session\Session;
 use Phpfastcache\CacheManager;
 use Phpfastcache\Config\ConfigurationOption;
+use function DI\autowire;
 use function DI\create;
 use function DI\get;
 
@@ -32,8 +34,8 @@ return [
         ]));
         return CacheManager::getInstance("files");
     },
-    RequestInterface::class => create(Request::class),
-    ResponseInterface::class => create(Response::class),
+    RequestInterface::class => autowire(Request::class),
+    ResponseInterface::class => autowire(Response::class),
     Session::class => create(Session::class)->constructor(
         cfg("session.name"), cfg("session.lifetime")
     ),

@@ -5,20 +5,20 @@
 
 namespace App\Controllers;
 
-use Framework\Config\Config;
 use Framework\Controller\Controller;
-use Framework\Facades\Response;
+use Framework\Http\RequestInterface as Request;
+use Framework\Http\ResponseInterface as Response;
 
 class TestController extends Controller
 {
-    public function test()
+    public function test(Request $request, Response $response)
     {
-        $cfg = app(Config::class);
-        $cfg->
-        Response::body("Hallo");
-        d($this);
+        $response->body("Test");
+        d($request === $this->request, $response === $this->response);
+
+//        d($this);
 //        $this->response->body("");
-        $this->send();
+//        $this->send();
     }
 
     public function add(float $x, float $y)

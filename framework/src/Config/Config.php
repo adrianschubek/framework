@@ -5,7 +5,6 @@
 
 namespace Framework\Config;
 
-
 class Config implements ConfigInterface
 {
     /**
@@ -33,5 +32,10 @@ class Config implements ConfigInterface
         foreach ($arr as $key => $value) {
             self::$config[$key] = $value;
         }
+    }
+
+    public static function getArray()
+    {
+        return self::$config;
     }
 }

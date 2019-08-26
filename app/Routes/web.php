@@ -6,6 +6,8 @@
 use App\Controllers;
 use App\Middleware;
 use FastRoute\RouteCollector;
+use Framework\Exception\NoResponse;
+use Framework\Facades\App;
 
 $dispatcher = FastRoute\cachedDispatcher(function (RouteCollector $r) {
 
@@ -27,10 +29,10 @@ $dispatcher = FastRoute\cachedDispatcher(function (RouteCollector $r) {
 $route = $dispatcher->dispatch($_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI']);
 switch ($route[0]) {
     case FastRoute\Dispatcher::NOT_FOUND:
-        $container->call([Controllers\ErrorController::class, "notFound"], [$_SERVER['REQUEST_URI']]);
+        $container->call([cfg("router.error.controller"), cfg("router.error.not_found")], [$_SERVER['REQUEST_URI']]);
         break;
     case FastRoute\Dispatcher::METHOD_NOT_ALLOWED:
-        $container->call([Controllers\ErrorController::class, "notAllowed"], [$_SERVER['REQUEST_URI']]);
+        $container->call([cfg("router.error.controller"), cfg("router.error.method_not_allowed")], [$_SERVER['REQUEST_URI']]);
         break;
     case FastRoute\Dispatcher::FOUND:
         $controller = $route[1];
@@ -38,22 +40,17 @@ switch ($route[0]) {
 
         if (isset($controller[2])) {
             $arr = $controller[2];
-//            foreach ($arr as $type => $middleware) {
-//                foreach ($middleware as $m) {
-//                    $container->call([$controller[0], "registerMiddleware"], [
-//                        new $m, $type
-//                    ]);
-//                }
-//            }
-
             foreach ($arr as $middleware) {
-                $container->call([$controller[0], "middleware"], [new $middleware]);
+                $container->call([$controller[0], "middleware"], [new $middleware()]);
             }
-
             $container->call([$controller[0], "runBefore"]);
             unset($controller[2]);
         }
-        $container->call($controller, $parameters);
-        $container->call([$controller[0], "finally"]);
+        $response = $container->call($controller, $parameters);
+        if (!$response) {
+            throw new NoResponse();
+        }
+        App::send($response);
+        $container->call([$controller[0], "runAfter"]);
         break;
 }

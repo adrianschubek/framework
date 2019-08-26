@@ -35,7 +35,7 @@ class ConfigLoader
             }
             $arr = include __DIR__ . "/../../../app/Config/$cfg.php";
             Config::setArray($arr);
-            Events::getEventManager()->trigger("app.core.config.loaded", ["config" => $configName]);
+//            Events::getEventManager()->trigger("app.core.config.loaded", ["config" => $configName]);
         }
     }
 }

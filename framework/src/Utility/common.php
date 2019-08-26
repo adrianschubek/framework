@@ -112,3 +112,10 @@ if (!function_exists("json")) {
         return ($prettyPrint) ? json_encode($data, JSON_PRETTY_PRINT) : json_encode($data);
     }
 }
+
+if (!function_exists("")) {
+    function toArray($data)
+    {
+        return json_decode($data, true);
+    }
+}

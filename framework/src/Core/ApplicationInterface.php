@@ -6,6 +6,7 @@
 namespace Framework\Core;
 
 
+use Framework\Http\ResponseInterface;
 use Psr\Container\ContainerInterface;
 
 interface ApplicationInterface
@@ -14,5 +15,5 @@ interface ApplicationInterface
 
     static function setContainer(ContainerInterface $container);
 
-    function send();
+    function send(ResponseInterface $response);
 }

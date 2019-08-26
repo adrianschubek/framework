@@ -12,10 +12,9 @@ abstract class Middleware
 {
     public const BEFORE = "before";
     public const AFTER = "after";
-    public const FINALLY = "finally";
 
     /** Typ der Middleware:
-     * "BEFORE", "AFTER" oder "FINALLY"
+     * "BEFORE" oder "AFTER"
      * @var string
      */
     public $type = self::BEFORE;
