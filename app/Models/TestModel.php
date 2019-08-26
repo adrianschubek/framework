@@ -13,4 +13,9 @@ class TestModel extends Model
     {
         return "Ja okay geht ";
     }
+
+    function getPrimaryKey()
+    {
+        // TODO: Implement getPrimaryKey() method.
+    }
 }

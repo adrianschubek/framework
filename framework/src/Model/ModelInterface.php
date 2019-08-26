@@ -9,4 +9,6 @@ namespace Framework\Model;
 interface ModelInterface
 {
     static function find();
+
+    function getPrimaryKey();
 }

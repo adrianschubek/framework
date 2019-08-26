@@ -16,7 +16,7 @@ class Test extends Migration
     {
         $this->db;
 
-        $body = Schema::create("testTable", function (Blueprint $blueprint) {
+        Schema::create("testTable", function (Blueprint $blueprint) {
             $blueprint->string("Lolz", 256);
             $blueprint->integer("id", 5);
         });

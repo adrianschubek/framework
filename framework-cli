@@ -1,0 +1,28 @@
+<?php
+/**
+ * Copyright (c) 2019. Adrian Schubek.
+ */
+
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Console\Question\ConfirmationQuestion;
+
+require_once __DIR__ . "/framework/src/bootstrap.php";
+
+$app = new Silly\Application("Framework", "1.0.0");
+
+$app->useContainer($container);
+$app->command('migrate', function (InputInterface $input, OutputInterface $output) use ($container) {
+    $helper = $this->getHelperSet()->get('question');
+    $output->writeln("[INFO] Listening...");
+
+    $q = new ConfirmationQuestion("Are you sure?");
+
+    if (!$helper->ask($input, $output, $q)) {
+        return;
+    }
+
+
+})->descriptions("XXXX");
+
+$app->run();

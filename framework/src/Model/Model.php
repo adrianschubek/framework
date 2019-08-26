@@ -36,18 +36,23 @@ class Model implements ModelInterface
     /** @var array */
     private $data = [];
 
-//    final public static function find($data)
-//    {
-//        self::$db->query("SELECT * FROM :table WHERE ");
-//    }
+    public static function find()
+    {
+        self::$db->query("SELECT * FROM :table WHERE ");
+    }
+
+    public function __get($name)
+    {
+
+    }
 
     public function __set($name, $value)
     {
         $this->data[$name] = $value;
     }
 
-    static function find()
+    function getPrimaryKey()
     {
-        // TODO: Implement find() method.
+        // TODO: Implement getPrimaryKey() method.
     }
 }

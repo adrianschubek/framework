@@ -69,7 +69,7 @@ abstract class Controller
     /**
      * @param Middleware $middleware
      */
-    final public function registerMiddleware(Middleware $middleware)
+    final public function middleware(Middleware $middleware)
     {
         $type = $middleware->type;
         switch (strtolower($type)) {

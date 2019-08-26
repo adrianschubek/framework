@@ -7,8 +7,6 @@ use App\Controllers;
 use App\Middleware;
 use FastRoute\RouteCollector;
 
-//Router::add('GET', '/cache', [Controllers\TestController::class, 'show']);
-
 $dispatcher = FastRoute\cachedDispatcher(function (RouteCollector $r) {
 
     $r->addRoute('GET', '/listener', [Controllers\ListenerController::class, 'show']);
@@ -49,7 +47,7 @@ switch ($route[0]) {
 //            }
 
             foreach ($arr as $middleware) {
-                $container->call([$controller[0], "registerMiddleware"], [new $middleware]);
+                $container->call([$controller[0], "middleware"], [new $middleware]);
             }
 
             $container->call([$controller[0], "runBefore"]);

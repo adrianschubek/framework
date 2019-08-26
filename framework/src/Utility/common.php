@@ -4,6 +4,7 @@
  */
 
 use Framework\Config\Config;
+use Framework\Core\Application;
 
 /** Helper Funktionen und Shortcuts für häufig verwendete Methoden **/
 
@@ -53,6 +54,20 @@ if (!function_exists("redirect")) {
     function redirect(string $route)
     {
         header("Location: $route");
+    }
+}
+
+if (!function_exists("app")) {
+    function app(string $name)
+    {
+        return Application::container()->get($name);
+    }
+}
+
+if (!function_exists("call")) {
+    function call(callable $callable, array $params)
+    {
+        return Application::container()->call($callable, $params);
     }
 }
 
