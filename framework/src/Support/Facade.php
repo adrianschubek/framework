@@ -18,6 +18,6 @@ class Facade implements FacadeInterface
 
     final public static function __callStatic($name, $arguments)
     {
-        Application::container()->call([static::$name, $name], $arguments);
+        return Application::container()->call([static::$name, $name], $arguments);
     }
 }

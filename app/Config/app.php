@@ -61,4 +61,11 @@ return [
     "router.error.not_found" => "notFound",
 
     "router.error.method_not_allowed" => "notAllowed",
+
+    /**
+     * Container definitions
+     */
+    "app.container.definitions" => [
+//        MyInterface::class => MyConcreteClass::class,
+    ],
 ];

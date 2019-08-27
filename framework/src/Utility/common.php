@@ -5,6 +5,7 @@
 
 use Framework\Config\Config;
 use Framework\Core\Application;
+use Framework\Facades\Response;
 
 /** Helper Funktionen und Shortcuts für häufig verwendete Methoden **/
 
@@ -24,7 +25,7 @@ if (!function_exists("view")) {
      */
     function view(string $view, array $data)
     {
-        Framework\View\View::render($view, $data);
+        Response::render($view, $data);
     }
 }
 
@@ -127,9 +128,17 @@ if (!function_exists("toArray")) {
     }
 }
 
+
 if (!function_exists("response")) {
     function response()
     {
 
+    }
+}
+
+if (!function_exists("dd")) {
+    function dd(...$obj)
+    {
+        die(dump(...$obj));
     }
 }

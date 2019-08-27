@@ -86,6 +86,7 @@ abstract class Controller
 
     /**
      * Sendet die Response
+     * @deprecated
      */
     final public function send()
     {

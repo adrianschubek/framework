@@ -12,7 +12,8 @@
         "mnapoli/silly-php-di": "^1.2",
         "doctrine/annotations": "^1.6",
         "ralouphie/getallheaders": "^3.0",
-        "nesbot/carbon": "^2.21"
+        "nesbot/carbon": "^2.21",
+        "symfony/var-dumper": "^4.3"
     },
     "require-dev": {
         "kint-php/kint": "*"

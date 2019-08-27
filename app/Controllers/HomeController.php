@@ -39,12 +39,10 @@ class HomeController extends Controller
             "height" => $arr[3],
             "last" => date("H:m:s")
         ]));
-        $this->send();
     }
 
     public function error()
     {
         $this->response->body($this->render("error.html"));
-        $this->send();
     }
 }

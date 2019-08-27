@@ -5,18 +5,32 @@
 
 namespace Framework\Router;
 
-use Framework\Controller\Controller;
-
 class Router
 {
-    /**
-     * @param string $method
-     * @param string $route
-     * @param $controller
-     * @param array|null $middleware
-     */
-    public static function add(string $method, string $route, $controller, array $middleware = null)
-    {
+    protected $routes = [];
+    protected $middlewareGroups = [];
 
+    public function get(string $routePath, $controller)
+    {
+        $route = new Route("get", $routePath, $controller);
+        $this->routes[] = $route;
+        return $route;
+    }
+
+    public function group(string $name, array $middleware)
+    {
+        $this->middlewareGroups[$name] = $middleware;
+    }
+
+    public function enableCache()
+    {
+        if (!cfg("cache")) {
+            return;
+        }
+    }
+
+    public function getRoutes()
+    {
+        return $this->routes;
     }
 }

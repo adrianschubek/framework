@@ -6,7 +6,6 @@
 namespace App\Controllers;
 
 use Framework\Controller\Controller;
-use Framework\Facades\Response as ResponseFacade;
 use Framework\Http\RequestInterface as Request;
 use Framework\Http\ResponseInterface as Response;
 
@@ -16,18 +15,13 @@ class TestController extends Controller
     {
         $response->body("Test");
         d($request === $this->request, $response === $this->response);
-        ResponseFacade::body("HAllo");
-        d($response);
-
-        return;
     }
 
     public function add(float $x, float $y)
     {
         d($this);
-        $this->response->body(
+        \Framework\Facades\Response::body(
             $x + $y
         );
-        $this->send();
     }
 }

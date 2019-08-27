@@ -34,6 +34,7 @@ if (!cfg("debug")) {
     $containerBuilder->writeProxiesToFile(true, ROOT . cfg("cache.container.proxy"));
 }
 $containerBuilder->addDefinitions(ROOT . "/framework/src/Core/definitions.php");
+$containerBuilder->addDefinitions(cfg("app.container.definitions"));
 
 $container = $containerBuilder->build();
 //Schema::$db = $container->get(Database::class);

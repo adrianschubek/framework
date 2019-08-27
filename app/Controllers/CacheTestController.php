@@ -6,8 +6,9 @@
 namespace App\Controllers;
 
 
-use Framework\Cache\Cache;
 use Framework\Controller\Controller;
+use Framework\Facades\Cache;
+use Framework\Facades\Response;
 
 class CacheTestController extends Controller
 {
@@ -22,7 +23,6 @@ class CacheTestController extends Controller
         }, 7200);
 
         $this->response->body($body);
-        $this->send();
     }
 
     public function allFunc()
@@ -32,7 +32,6 @@ class CacheTestController extends Controller
         }, 7200);
 
         $this->response->json($body);
-        $this->send();
     }
 
     public function clearCache()
@@ -40,6 +39,5 @@ class CacheTestController extends Controller
         Cache::clear();
 
         $this->response->body("Cache geleert");
-        $this->send();
     }
 }

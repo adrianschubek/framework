@@ -4,15 +4,16 @@
  */
 
 use Framework\Database\Database;
-use Framework\Facades\Response as ResponseFacade;
 use Framework\Http\Request;
 use Framework\Http\RequestInterface;
 use Framework\Http\Response;
 use Framework\Http\ResponseInterface;
 use Framework\Logger\Logger;
+use Framework\Router\Router;
 use Framework\Session\Session;
 use Phpfastcache\CacheManager;
 use Phpfastcache\Config\ConfigurationOption;
+use Phpfastcache\Helper\Psr16Adapter;
 use function DI\autowire;
 use function DI\create;
 use function DI\get;
@@ -40,6 +41,13 @@ return [
         cfg("session.name"), cfg("session.lifetime")
     ),
     Database::class => create(Database::class)->constructor(get(Logger::class)),
+    Psr16Adapter::class => function () {
+        return new Psr16Adapter("Files", new ConfigurationOption([
+            "path" => "cache",
+            "itemDetailedDate" => false
+        ]));
+    },
+    Router::class => autowire()
 //    ConfigInterface::class => Config::class,
 ];
 

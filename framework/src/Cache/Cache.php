@@ -6,12 +6,16 @@
 namespace Framework\Cache;
 
 use Closure;
-use Phpfastcache\Config\ConfigurationOption;
+use DI\Annotation\Inject;
 use Phpfastcache\Helper\Psr16Adapter;
 
 class Cache
 {
-    private static $cacheAdapter = null;
+    /**
+     * @var Psr16Adapter
+     * @Inject
+     */
+    private $cacheAdapter = null;
 
     /**
      * @param string $key
@@ -19,21 +23,18 @@ class Cache
      * @param int|null $lifetime
      * @return bool|mixed|null
      */
-    public static function push(string $key, $default = null, int $lifetime = null)
+    public function push(string $key, $default = null, int $lifetime = null)
     {
-        self::$cacheAdapter = self::$cacheAdapter ?? new Psr16Adapter("Files", new ConfigurationOption([
-                "path" => "cache",
-                "itemDetailedDate" => false
-            ]));
-        if (self::$cacheAdapter->has($key)) {
-            return self::$cacheAdapter->get($key);
+        if ($this->cacheAdapter->has($key)) {
+            return $this->cacheAdapter->get($key);
         }
         if ($default instanceof Closure) {
             $data = $default();
-            self::set($key, $data, $lifetime);
+            $this->set($key, $data, $lifetime);
             return $data;
+        } else {
+            $this->set($key, $default, $lifetime);
         }
-        self::set($key, $default, $lifetime);
         return $default ?? false;
     }
 
@@ -42,22 +43,13 @@ class Cache
      * @param $value
      * @param int|null $lifetime
      */
-    public static function set(string $key, $value, int $lifetime = null)
+    public function set(string $key, $value, int $lifetime = null)
     {
-        self::$cacheAdapter = self::$cacheAdapter ?? new Psr16Adapter("Files", new ConfigurationOption([
-                "path" => "cache",
-                "itemDetailedDate" => false
-            ]));
-        self::$cacheAdapter->set($key, $value, $lifetime);
+        $this->cacheAdapter->set($key, $value, $lifetime);
     }
 
-    public static function clear()
+    public function clear()
     {
-        self::$cacheAdapter = self::$cacheAdapter ?? new Psr16Adapter("Files", new ConfigurationOption([
-                "path" => "cache",
-                "itemDetailedDate" => false
-            ]));
-
-        self::$cacheAdapter->clear();
+        $this->cacheAdapter->clear();
     }
 }
