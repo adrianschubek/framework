@@ -13,23 +13,23 @@ Router::group("web", [
 
 Router::get("/", "HomeController@page")->middleware([OnlyDebugMiddleware::class, OnlyDebugMiddleware::class]);
 
-Router::get("/test", "")->middleware("web");
+Router::get("/test", "")->group("web");
 
 Router::get("/x/[data]", "")->name("xx");
 
 Router::post("/test", "TestController@xx");
 
-$q = "/test/[action]/xx/lol";
-//$q = "/test/xx/lol";
-$str = preg_quote($q, '/');
-$str = str_replace("\]", "]", $str);
-$str = str_replace("/\\", "/", $str);
-$str2 = preg_replace("/\[([a-z]+)\]/", "([a-z0-9_-]+)", $str);
+//$q = "/test/[action]/xx/lol";
+////$q = "/test/xx/lol";
+//$str = preg_quote($q, '/');
+//$str = str_replace("\]", "]", $str);
+//$str = str_replace("/\\", "/", $str);
+//$str2 = preg_replace("/\[([a-z]+)\]/", "([a-z0-9_-]+)", $str);
 
 //dd($q, $str, $str2);
 
-$text = '[This] is a [test] string, [eat] my [shorts].';
-preg_match_all("/\[([^\]]*)\]/", $text, $matches);
+//$text = '[This] is a [test] string, [eat] my [shorts].';
+//preg_match_all("/\[([^\]]*)\]/", $text, $matches);
 
 Router::error(function () {
 

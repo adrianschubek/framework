@@ -14,6 +14,7 @@ use Psr\Container\ContainerInterface;
 class Application implements ApplicationInterface
 {
     /**
+     * DI Container
      * @var Container
      */
     protected static $container;
@@ -30,7 +31,7 @@ class Application implements ApplicationInterface
 
     public function send(?ResponseInterface $response)
     {
-        if ($response) {
+        if ($response) { // Custom response returned
             $response->send();
         }
         Response::send();

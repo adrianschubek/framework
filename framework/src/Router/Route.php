@@ -17,6 +17,10 @@ class Route
      * @var string
      */
     protected $route;
+    /**
+     * @var string
+     */
+    protected $stringRoute;
     protected $controller;
     protected $middleware = [];
     protected $middlewareGroup = [];
@@ -25,6 +29,7 @@ class Route
     {
         $this->method = $method;
         $this->route = $this->regex($route);
+        $this->stringRoute = $route;
         $this->controller = $controller;
     }
 

@@ -4,6 +4,8 @@
  * https://framework.adriansoftware.de
  */
 
+use App\Providers\AppServiceProvider;
+
 /**
  * Allgemeine Einstellungen
  */
@@ -64,9 +66,13 @@ return [
     "router.error.method_not_allowed" => "notAllowed",
 
     /**
-     * Container definitions
+     * Email
      */
-    "app.container.definitions" => [
-//        MyInterface::class => MyConcreteClass::class,
+
+    /**
+     * Providers
+     */
+    "providers" => [
+        AppServiceProvider::class,
     ],
 ];

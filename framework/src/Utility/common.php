@@ -66,6 +66,20 @@ if (!function_exists("app")) {
     }
 }
 
+if (!function_exists("call")) {
+    function call(callable $callable, array $params)
+    {
+        return Application::container()->call($callable, $params);
+    }
+}
+
+if (!function_exists("make")) {
+    function make(string $name, array $params = [])
+    {
+        return Application::container()->make($name, $params);
+    }
+}
+
 if (!function_exists("abort")) {
     function abort(int $code)
     {
@@ -80,12 +94,6 @@ if (!function_exists("str_contains")) {
     }
 }
 
-if (!function_exists("call")) {
-    function call(callable $callable, array $params)
-    {
-        return Application::container()->call($callable, $params);
-    }
-}
 
 if (!function_exists("__")) {
     function __()

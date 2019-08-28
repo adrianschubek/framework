@@ -7,7 +7,7 @@
 use App\Controllers;
 use App\Middleware;
 use FastRoute\RouteCollector;
-use Framework\Facades\App;
+use Framework\Facades\Core\App;
 
 $dispatcher = FastRoute\cachedDispatcher(function (RouteCollector $r) {
 

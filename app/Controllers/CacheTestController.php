@@ -8,8 +8,7 @@ namespace App\Controllers;
 
 
 use Framework\Controller\Controller;
-use Framework\Facades\Cache;
-use Framework\Facades\Response;
+use Framework\Facades\Cache\Cache;
 
 class CacheTestController extends Controller
 {

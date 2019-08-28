@@ -5,18 +5,23 @@
  */
 define("ROOT", __DIR__ . "/../../");
 define("FRAMEWORK_START", microtime(true));
+
+//TODO: Cleanup
+
 // 1. Autoloader
 require_once __DIR__ . "/../../vendor/autoload.php";
 
 use Framework\Config\Config;
 use Framework\Core\Application;
 use Framework\Core\ConfigLoader;
+use Framework\Core\Providers\CoreServiceProvider;
+use Framework\Core\ServiceProvider;
 
 //set_exception_handler(function (Exception $exception) {
 //    echo get_class($exception) . $exception->getFile() . " -- " . $exception->getLine();
 //});
 
-// 2. Einstellungen laden
+// 2. Confirguration
 $cfgLoader = new ConfigLoader();
 $cfgLoader->load(["app", "database", "debug", "session", "custom"]);
 if (cfg("cache")) {
@@ -27,18 +32,20 @@ if (cfg("cache")) {
     Config::setArray(toArray(file_get_contents($path)));
 }
 
-// 3. Dependency Injection Container erstellen
+// 3. Dependency Injection Container
 $containerBuilder = new DI\ContainerBuilder();
 $containerBuilder->useAnnotations(true);
 if (!cfg("debug")) {
     $containerBuilder->enableCompilation(ROOT . cfg("cache.container"));
     $containerBuilder->writeProxiesToFile(true, ROOT . cfg("cache.container.proxy"));
 }
-$containerBuilder->addDefinitions(ROOT . "/framework/src/Core/definitions.php");
-$containerBuilder->addDefinitions(cfg("app.container.definitions"));
-
+//$containerBuilder->addDefinitions(ROOT . "/framework/src/Core/definitions.php");
+(new CoreServiceProvider())->boot();
+foreach (cfg("providers") as $provider) {
+    (new $provider())->boot();
+}
+$containerBuilder->addDefinitions(ServiceProvider::getServices());
 $container = $containerBuilder->build();
-//Schema::$db = $container->get(Database::class);
 
 $app = new Application();
 $container->set(Application::class, $app);

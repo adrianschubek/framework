@@ -6,6 +6,8 @@
 
 namespace Framework\Router;
 
+use Framework\Facades\Logger;
+
 class Router
 {
     protected $routes = [];
@@ -45,6 +47,7 @@ class Router
     public function enableCache()
     {
         if (!cfg("cache")) {
+            Logger::error("Cache not enabled in config file.");
             return;
         }
     }
@@ -79,17 +82,26 @@ class Router
     {
         $method = $method ?? $_SERVER['REQUEST_METHOD'];
         $uri = $uri ?? $_SERVER['REQUEST_URI'];
+        $found = false;
+        $parameterMatches = [];
 
-        $new = array_filter($this->routes, function (Route $obj) use ($method, $uri) {
-            if ($obj->getMethod() !== $method) {
-                return false;
-            }
-            if ($obj->getRoute() === "\/" && $uri !== "/") {
-                return false;
-            }
-            return !!preg_match("/" . $obj->getRoute() . "$/", $uri, $parameterMatches);
-        });
+//        $new = array_filter($this->routes, function (Route $obj) use ($method, $uri, $parameterMatches) {
+//            if ($obj->getMethod() !== $method) {
+//                return false;
+//            }
+//            if ($obj->getRoute() === "\/" && $uri !== "/") { // Homepage
+//                return false;
+//            }
+//            return !!preg_match_all("/" . $obj->getRoute() . "$/", $uri, $parameterMatches);
+//        });
 
-        dd($method, $uri, $this, $new);
+        /** @var Route $route */
+        foreach ($this->routes as $route) {
+            if ($route->getMethod() !== $method || ($route->getRoute() === "\/" && $uri !== "/")) {
+                continue;
+            }
+        }
+
+//        dd($method, $uri, $this, $new, $parameterMatches);
     }
 }
