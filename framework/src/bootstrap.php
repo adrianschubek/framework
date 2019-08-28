@@ -1,6 +1,7 @@
 <?php
 /**
  * Copyright (c) 2019. Adrian Schubek.
+ * https://framework.adriansoftware.de
  */
 define("ROOT", __DIR__ . "/../../");
 define("FRAMEWORK_START", microtime(true));

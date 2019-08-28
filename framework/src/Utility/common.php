@@ -1,6 +1,7 @@
 <?php
 /**
  * Copyright (c) 2019. Adrian Schubek.
+ * https://framework.adriansoftware.de
  */
 
 use Framework\Config\Config;
@@ -69,6 +70,13 @@ if (!function_exists("abort")) {
     function abort(int $code)
     {
 
+    }
+}
+
+if (!function_exists("str_contains")) {
+    function str_contains(string $text, string $other)
+    {
+        return strpos($text, $other) !== false;
     }
 }
 
