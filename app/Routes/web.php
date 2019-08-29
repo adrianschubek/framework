@@ -19,6 +19,10 @@ Router::get("/x/[data]", "")->name("xx");
 
 Router::post("/test", "TestController@xx");
 
+Router::get("/hallo", function () {
+    return;
+});
+
 //$q = "/test/[action]/xx/lol";
 ////$q = "/test/xx/lol";
 //$str = preg_quote($q, '/');
@@ -32,7 +36,7 @@ Router::post("/test", "TestController@xx");
 //preg_match_all("/\[([^\]]*)\]/", $text, $matches);
 
 Router::error(function () {
-
+    return "404";
 });
 
 //dd($matches[1]);

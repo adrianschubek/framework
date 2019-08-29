@@ -6,8 +6,8 @@
 
 namespace Framework\Http;
 
-
-final class ContentType
+/** @deprecated */
+class ContentType
 {
     const HTML = "text/html";
     const JSON = "application/json";

@@ -9,8 +9,8 @@ namespace Framework\Router;
 use Closure;
 use Framework\Exception\ControllerNotFound;
 use Framework\Facades\Core\App;
-use Framework\Facades\Logger\Logger;
 use Framework\Facades\Http\Response;
+use Framework\Facades\Logger\Logger;
 
 class Router
 {
@@ -105,13 +105,12 @@ class Router
                 break;
             }
         }
-
         if (!$found) {
-//             ($this->call($this->errorRoute));
-            Response::send();
+            $this->call($this->errorRoute);
+            return;
         }
-
-        dd($method, $uri, $this, $found, $parameterMatches);
+        $this->call($route->getController());
+//                dd($method, $uri, $this, $found, $parameterMatches);
     }
 
     /**
@@ -122,11 +121,15 @@ class Router
     private function call($var)
     {
         if ($var instanceof Closure) {
-            return $var();
+            Response::body($var());
+            App::send();
+            return;
         }
-        if (!str_contains($var, "@")) {
+        if (!is_string($var) || !str_contains($var, "@")) {
             throw new ControllerNotFound();
         }
+        $str = explode("@", $var);
+        dd($str);
     }
 
     public function error($callback)

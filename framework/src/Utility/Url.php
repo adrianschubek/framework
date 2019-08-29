@@ -9,22 +9,22 @@ namespace Framework\Utility;
 
 class Url
 {
-    /** Prüft, ob $text in URL ist
-     * @param $text
-     * @return bool
-     */
-    public static function inUrl($text)
-    {
-        return strpos($_SERVER["REQUEST_URI"], $text) !== false;
-    }
-
-    /** Prüft, ob $text mit der URl übereinstimmt
+    /** Checks if $text is in URl
      * @param string $text
      * @return bool
      */
-    static function isUrl($text)
+    public static function is($text)
     {
         return $_SERVER["REQUEST_URI"] === $text;
+    }
+
+    /** Checks if $text === URL
+     * @param $text
+     * @return bool
+     */
+    public function in($text)
+    {
+        return strpos($_SERVER["REQUEST_URI"], $text) !== false;
     }
 
 }

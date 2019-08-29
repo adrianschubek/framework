@@ -6,7 +6,6 @@
 
 namespace Framework\Facades\Http;
 
-
 use Framework\Http\ResponseInterface;
 use Framework\Support\Facade;
 
