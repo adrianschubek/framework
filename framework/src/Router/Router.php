@@ -85,16 +85,6 @@ class Router
         $found = false;
         $parameterMatches = [];
 
-//        $new = array_filter($this->routes, function (Route $obj) use ($method, $uri, $parameterMatches) {
-//            if ($obj->getMethod() !== $method) {
-//                return false;
-//            }
-//            if ($obj->getRoute() === "\/" && $uri !== "/") { // Homepage
-//                return false;
-//            }
-//            return !!preg_match_all("/" . $obj->getRoute() . "$/", $uri, $parameterMatches);
-//        });
-
         /** @var Route $route */
         foreach ($this->routes as $route) {
             if ($route->getMethod() !== $method || ($route->getRoute() === "\/" && $uri !== "/")) {

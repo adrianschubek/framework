@@ -38,8 +38,9 @@ class Response implements ResponseInterface
         setcookie($name, $value, $expires);
     }
 
+    /** @internal */
     public function send()
-    {
+    { //TODO: Complete
         ob_start();
 
         if (!empty($this->headers)) {
