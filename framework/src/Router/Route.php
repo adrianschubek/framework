@@ -24,6 +24,7 @@ class Route
     protected $controller;
     protected $middleware = [];
     protected $middlewareGroup = [];
+    protected $name;
 
     public function __construct(string $method, string $route, $controller)
     {
@@ -40,6 +41,23 @@ class Route
         $str = str_replace("/\\", "/", $str);
         return preg_replace("/\[([a-z]+)\]/", "([a-z0-9_-]+)", $str);
     }
+
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function name(string $name)
+    {
+        $this->name = $name;
+        return $this;
+    }
+
+    //TODO. REVERSE ROUTING
+    // [ . $var . ] --> replace ABC
 
     /**
      * @return string
@@ -88,6 +106,7 @@ class Route
         } else {
             $this->middleware[] = $middleware;
         }
+        return $this;
     }
 
     public function group($middleware)
@@ -97,10 +116,6 @@ class Route
         } else {
             $this->middlewareGroup[] = $middleware;
         }
-    }
-
-    public function name(string $name)
-    {
-
+        return $this;
     }
 }

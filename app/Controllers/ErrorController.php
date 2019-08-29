@@ -8,7 +8,7 @@ namespace App\Controllers;
 
 
 use Framework\Controller\Controller;
-use Framework\Facades\Logger;
+use Framework\Facades\Logger\Logger;
 use Framework\Facades\Response;
 
 class ErrorController extends Controller

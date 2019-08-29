@@ -9,7 +9,7 @@ namespace Framework\Exception;
 
 use Exception;
 
-class NoResponse extends Exception
+class EmptyResponse extends Exception
 {
 
 }

@@ -4,12 +4,13 @@
  * https://framework.adriansoftware.de
  */
 
-namespace Framework\Facades;
+namespace Framework\Facades\Http;
 
 
+use Framework\Http\ResponseInterface;
 use Framework\Support\Facade;
 
 class Response extends Facade
 {
-    protected static $name = \Framework\Http\ResponseInterface::class;
+    protected static $name = ResponseInterface::class;
 }

@@ -7,7 +7,7 @@
 namespace Framework\Core;
 
 use DI\Container;
-use Framework\Facades\Response;
+use Framework\Facades\Http\Response;
 use Framework\Http\ResponseInterface;
 use Psr\Container\ContainerInterface;
 

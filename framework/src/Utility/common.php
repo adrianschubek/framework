@@ -6,7 +6,7 @@
 
 use Framework\Config\Config;
 use Framework\Core\Application;
-use Framework\Facades\Response;
+use Framework\Facades\Http\Response;
 
 /** Helper Funktionen und Shortcuts für häufig verwendete Methoden **/
 
@@ -66,6 +66,13 @@ if (!function_exists("app")) {
     }
 }
 
+if (!function_exists("route")) {
+    function route(string $name, array $params)
+    {
+//        return ... TODO
+    }
+}
+
 if (!function_exists("call")) {
     function call(callable $callable, array $params)
     {
@@ -88,9 +95,9 @@ if (!function_exists("abort")) {
 }
 
 if (!function_exists("str_contains")) {
-    function str_contains(string $text, string $other)
+    function str_contains(string $text, string $string)
     {
-        return strpos($text, $other) !== false;
+        return strpos($text, $string) !== false;
     }
 }
 

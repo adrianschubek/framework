@@ -5,7 +5,7 @@
  */
 
 use App\Middleware\OnlyDebugMiddleware;
-use Framework\Facades\Router;
+use Framework\Facades\Router\Router;
 
 Router::group("web", [
     //...  Middleware

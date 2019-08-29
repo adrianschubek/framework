@@ -6,12 +6,17 @@
 
 namespace Framework\Router;
 
-use Framework\Facades\Logger;
+use Closure;
+use Framework\Exception\ControllerNotFound;
+use Framework\Facades\Core\App;
+use Framework\Facades\Logger\Logger;
+use Framework\Facades\Http\Response;
 
 class Router
 {
     protected $routes = [];
     protected $middlewareGroups = [];
+    protected $errorRoute;
 
     public function get(string $routePath, $controller)
     {
@@ -37,11 +42,6 @@ class Router
     public function group(string $name, array $middleware)
     {
         $this->middlewareGroups[$name] = $middleware;
-    }
-
-    public function error($controller)
-    {
-
     }
 
     public function enableCache()
@@ -100,8 +100,37 @@ class Router
             if ($route->getMethod() !== $method || ($route->getRoute() === "\/" && $uri !== "/")) {
                 continue;
             }
+            if (preg_match_all("/" . $route->getRoute() . "$/", $uri, $parameterMatches)) {
+                $found = true;
+                break;
+            }
         }
 
-//        dd($method, $uri, $this, $new, $parameterMatches);
+        if (!$found) {
+//             ($this->call($this->errorRoute));
+            Response::send();
+        }
+
+        dd($method, $uri, $this, $found, $parameterMatches);
+    }
+
+    /**
+     * @param $var
+     * @return mixed
+     * @throws ControllerNotFound
+     */
+    private function call($var)
+    {
+        if ($var instanceof Closure) {
+            return $var();
+        }
+        if (!str_contains($var, "@")) {
+            throw new ControllerNotFound();
+        }
+    }
+
+    public function error($callback)
+    {
+        $this->errorRoute = $callback;
     }
 }

@@ -4,7 +4,7 @@
  * https://framework.adriansoftware.de
  */
 
-namespace Framework\Facades;
+namespace Framework\Facades\Router;
 
 
 use Framework\Router\Route;

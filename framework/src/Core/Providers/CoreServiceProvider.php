@@ -44,7 +44,7 @@ class CoreServiceProvider extends ServiceProvider
                 CacheManager::setDefaultConfig(new ConfigurationOption([
                     "path" => ROOT . cfg("cache.default")
                 ]));
-                return CacheManager::getInstance("files");
+                return CacheManager::getInstance("files");//TODO Cache: More drivers via cfg()
             },
             RequestInterface::class => autowire(Request::class),
             ResponseInterface::class => autowire(Response::class),
