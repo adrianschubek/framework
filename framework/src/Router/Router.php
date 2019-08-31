@@ -95,31 +95,47 @@ class Router
                 break;
             }
         }
+        array_shift($parameterMatches);
+//        dd($parameterMatches);
         if (!$found) {
-            $this->call($this->errorRoute);
-            return;
+            $this->call($this->errorRoute, $parameterMatches);
+        } else {
+            $this->call($route->getController(), $parameterMatches);
         }
-        $this->call($route->getController());
 //                dd($method, $uri, $this, $found, $parameterMatches);
     }
 
     /**
      * @param $var
-     * @return mixed
+     * @param array $params
+     * @return void
      * @throws ControllerNotFound
      */
-    private function call($var)
+    private function call($var, $params = [])
     {
+        $paramArr = [];
+        foreach ($params as $val) {
+            $paramArr[] = $val[0];
+        }
         if ($var instanceof Closure) {
-            Response::body($var());
+            Response::body($var(...$paramArr));
             App::send();
             return;
         }
         if (!is_string($var) || !str_contains($var, "@")) {
             throw new ControllerNotFound();
         }
-        $str = explode("@", $var);
-        dd($str);
+        $ctrl = explode("@", $var);
+        call($ctrl, $params);
+    }
+
+    public function route(string $name, array $values = [])
+    {
+        $url = $this->routes[array_search($name, array_column($this->routes, "name"))]->getStringRoute();
+        foreach ($values as $key => $value) {
+            $url = str_replace("[" . $key . "]", $value, $url);
+        }
+        return $url;
     }
 
     public function error($callback)

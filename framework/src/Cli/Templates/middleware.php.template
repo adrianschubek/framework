@@ -1,18 +1,18 @@
 <?php
-/**
- * Copyright (c) 2019. Adrian Schubek.
- * https://framework.adriansoftware.de
- */
 
 namespace App\Middleware;
-
 
 use Framework\Http\RequestInterface;
 use Framework\Http\ResponseInterface;
 use Framework\Middleware\Middleware;
 
-class VerifyCsrfToken extends Middleware
-
+class
+{
+{
+name
+}
+} extends
+Middleware
 {
     /**
      * @param RequestInterface $request
@@ -21,6 +21,6 @@ class VerifyCsrfToken extends Middleware
      */
     function process(RequestInterface &$request, ResponseInterface &$response): bool
     {
-        // TODO: Implement process() method.
+
     }
 }

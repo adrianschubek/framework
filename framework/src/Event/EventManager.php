@@ -6,7 +6,7 @@
 
 namespace Framework\Event;
 
-
+//TODO Rewrite
 class EventManager
 {
     /**
@@ -51,7 +51,7 @@ class EventManager
         if (isset($this->events[$eventname])) {
             foreach ($this->events[$eventname] as $event) {
                 if (is_callable($event->getCallback())) {
-                    call_user_func($event->getCallback(), $args);
+                    call($event->getCallback(), $args);
                 }
             }
         }

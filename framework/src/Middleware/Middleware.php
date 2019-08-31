@@ -23,7 +23,7 @@ abstract class Middleware
     /**
      * @param RequestInterface $request
      * @param ResponseInterface $response
-     * @return mixed
+     * @return bool
      */
     abstract function process(RequestInterface &$request, ResponseInterface &$response): bool;
 }

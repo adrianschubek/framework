@@ -54,6 +54,7 @@ class Response implements ResponseInterface
         if (!empty($this->statusCode)) {
             header($this->statusCode);
         }
+
         echo $this->body;
 
         ob_end_flush();

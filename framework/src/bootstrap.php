@@ -35,11 +35,12 @@ if (cfg("cache")) {
 // 3. Dependency Injection Container
 $containerBuilder = new DI\ContainerBuilder();
 $containerBuilder->useAnnotations(true);
-if (!cfg("debug")) {
+if (cfg("cache")) {
     $containerBuilder->enableCompilation(ROOT . cfg("cache.container"));
     $containerBuilder->writeProxiesToFile(true, ROOT . cfg("cache.container.proxy"));
 }
-//$containerBuilder->addDefinitions(ROOT . "/framework/src/Core/definitions.php");
+$dotenv = Dotenv\Dotenv::create(ROOT);
+$dotenv->load();
 (new CoreServiceProvider())->boot();
 foreach (cfg("providers") as $provider) {
     (new $provider())->boot();
@@ -51,7 +52,7 @@ $app = new Application();
 $container->set(Application::class, $app);
 Application::setContainer($container);
 
-// Nur in DEVELOPMENT (app.env === "dev")
+// DEVELOPMENT (app.env === "dev")
 if (cfg("app.env") === "dev") {
     /** @noinspection PhpFullyQualifiedNameUsageInspection */
     \Kint\Renderer\RichRenderer::$theme = 'aante-light.css';

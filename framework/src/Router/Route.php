@@ -9,6 +9,7 @@ namespace Framework\Router;
 
 class Route
 {
+    public $name;
     /**
      * @var string
      */
@@ -24,7 +25,6 @@ class Route
     protected $controller;
     protected $middleware = [];
     protected $middlewareGroup = [];
-    protected $name;
 
     public function __construct(string $method, string $route, $controller)
     {
@@ -40,6 +40,14 @@ class Route
         $str = str_replace("\]", "]", $str);
         $str = str_replace("/\\", "/", $str);
         return preg_replace("/\[([a-z]+)\]/", "([a-z0-9_-]+)", $str);
+    }
+
+    /**
+     * @return string
+     */
+    public function getStringRoute(): string
+    {
+        return $this->stringRoute;
     }
 
     /**

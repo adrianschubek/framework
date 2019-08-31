@@ -6,12 +6,36 @@
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Question\ConfirmationQuestion;
+use Twig\Environment;
+use Twig\Loader\FilesystemLoader;
 
 require_once __DIR__ . "/framework/src/bootstrap.php";
 
-$app = new Silly\Application("Framework", "1.0.0");
+$app = new Silly\Application("Framework CLI", "1.0.0");
 
 $app->useContainer($container);
+
+function place(string $template, array $data, string $path)
+{
+    $env = new Environment(new FilesystemLoader(ROOT . "/framework/src/Cli/Templates/"));
+    $body = $env->render($template . ".php.template", $data);
+    file_put_contents(ROOT . $path, $body);
+}
+
+$app->command('controller [name]', function ($name, OutputInterface $output) use ($container) {
+    if (!$name) return;
+    place("controller", ["name" => $name], "/app/Controllers/" . ucwords($name) . "Controller.php");
+    $output->writeln($name . "Controller created.");
+
+})->descriptions("Creates a controller");
+
+$app->command('middleware [name]', function ($name, OutputInterface $output) use ($container) {
+    if (!$name) return;
+    place("middleware", ["name" => $name], "/app/Middleware/" . ucwords($name) . ".php");
+    $output->writeln($name . " created.");
+
+})->descriptions("Creates a middleware");
+
 $app->command('migrate', function (InputInterface $input, OutputInterface $output) use ($container) {
     $helper = $this->getHelperSet()->get('question');
     $output->writeln("[INFO] Listening...");
@@ -24,5 +48,6 @@ $app->command('migrate', function (InputInterface $input, OutputInterface $outpu
 
 
 })->descriptions("XXXX");
+
 
 $app->run();

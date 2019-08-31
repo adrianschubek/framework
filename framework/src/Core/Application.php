@@ -32,7 +32,7 @@ class Application implements ApplicationInterface
     public function send(?ResponseInterface $response)
     {
         if ($response) { // Custom response returned
-            $response->send();
+            return $response->send();
         }
         Response::send();
     }
