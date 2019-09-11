@@ -12,7 +12,8 @@
         "ralouphie/getallheaders": "^3.0",
         "nesbot/carbon": "^2.21",
         "symfony/var-dumper": "^4.3",
-        "tightenco/collect": "^5.8"
+        "tightenco/collect": "^5.8",
+        "filp/whoops": "^2.5"
     },
     "require-dev": {
         "kint-php/kint": "*"

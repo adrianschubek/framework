@@ -21,6 +21,8 @@ use Phpfastcache\Config\ConfigurationOption;
 use Phpfastcache\Helper\Psr16Adapter;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
+use Whoops\Handler\PrettyPageHandler;
+use Whoops\Run;
 use function DI\autowire;
 use function DI\create;
 use function DI\get;
@@ -60,5 +62,9 @@ class CoreServiceProvider extends ServiceProvider
             },
             Router::class => autowire(),
         ]);
+
+        $whoops = new Run();
+        $whoops->prependHandler(new PrettyPageHandler());
+        $whoops->register();
     }
 }

@@ -74,7 +74,7 @@ if (!function_exists("route")) {
 }
 
 if (!function_exists("call")) {
-    function call(callable $callable, array $params)
+    function call($callable, array $params)
     {
         return Application::container()->call($callable, $params);
     }

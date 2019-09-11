@@ -16,5 +16,5 @@ interface ApplicationInterface
 
     static function setContainer(ContainerInterface $container);
 
-    function send(ResponseInterface $response);
+    function send($response);
 }

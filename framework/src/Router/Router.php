@@ -126,7 +126,8 @@ class Router
             throw new ControllerNotFound();
         }
         $ctrl = explode("@", $var);
-        call($ctrl, $params);
+        $response = call($ctrl, $params);
+        dd($ctrl, $response);
     }
 
     public function route(string $name, array $values = [])
